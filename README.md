@@ -24,7 +24,10 @@ Use this Sketch file to see fonts, colors, size and responsive design in detail.
 ### Tech stack
 
 - Use **Vue & Vuex**
+- Use _linter_
 - Use a preprocessor like SASS/SCSS/Less but _do not_ use any CSS frameworks or libraries.
+- Use *BEM* methodology
+- _No jQuery_
 
 ### Bonus
 
