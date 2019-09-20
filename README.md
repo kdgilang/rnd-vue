@@ -19,6 +19,7 @@ Use this Sketch file to see fonts, colors, size and responsive design in detail.
 - The filter navigation needs to be able to perform real time filtering on both client side data, as well as server side queries.
 - `See map` button clicked should show Map view with dropped pin (you could use your own design)
 - Responsive/mobile version
+- Compatibility with all browsers especially *I.E*
 
 ### Tech stack
 
@@ -30,6 +31,7 @@ Use this Sketch file to see fonts, colors, size and responsive design in detail.
 
 - Write clear **documentation** on how the app was designed and how to run the code.
 - Provide proper unit tests.
+- Map view (using own design)
 - Use Typescript
 
 ## What We Care About
@@ -48,7 +50,7 @@ Here's what you should strive for:
 
 > Where should I send back the result when I'm done?
 
-Fork this repo and send us a pull request when you think you are done. The deadline for this task is 4 days after you got this test.
+Fork this repo and send us a pull request when you think you are done. The deadline for this task is 3 days after you got this test.
 
 > What if I have a question?
 
