@@ -18,13 +18,12 @@ Use this Sketch file to see fonts, colors, size and responsive design in detail.
 
 - The filter navigation needs to be able to perform real time filtering on both client side data, as well as server side queries.
 - `See map` button clicked should show Map view with dropped pin (you could use your own design)
-- Responsive/mobile version
-- Compatibility with all browsers especially *I.E*
+- Responsive (mobile+tablet) version
+- Compatibility with all browsers especially *I.E > 8*
 
 ### Tech stack
 
-- JS oriented
-  - Use **Vue & Vuex**
+- Use **Vue & Vuex**
 - Use a preprocessor like SASS/SCSS/Less but _do not_ use any CSS frameworks or libraries.
 
 ### Bonus
