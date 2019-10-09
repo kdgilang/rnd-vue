@@ -1,0 +1,28 @@
+@import "../../../scss/variable";
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+    &__item {
+        color: $black1;
+        font-size: 14px;
+        margin-right: 53px;
+        position: relative;
+        text-decoration: none;
+        &:before {
+            content: "";
+            background-color: $black1-hover;
+            bottom: -2px;
+            height: 1px;
+            left: 0;
+            position: absolute;
+            width: 0;
+            transition: width 0.2s ease-in-out;
+        }
+        &:hover {
+            color: $black1-hover;
+            &:before {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+[ 
+    { 
+       "title":"Inspiration",
+       "slug":"inspiration",
+       "url": "/inspiration",
+       "active":false,
+       "published":true
+    },
+    { 
+       "title":"Explore",
+       "slug":"explore",
+       "url": "/explore",
+       "active":false,
+       "published":true
+    },
+    { 
+       "title":"Destination",
+       "slug":"destination",
+       "url": "/destination",
+       "active":false,
+       "published":true
+    },
+    { 
+       "title":"Book",
+       "slug":"book",
+       "url": "/book",
+       "active":false,
+       "published":true
+    }
+]

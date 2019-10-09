@@ -1,0 +1,49 @@
+@import "../../scss/variable";
+.user-menu {
+    margin: 0;
+    padding: 0;
+    &__item {
+        list-style: none;
+        display: inline-block;
+        margin-right: 53px;
+        &:last-child {
+            margin-right: 0;
+        }
+        a {
+            color: $black1;
+            display: inline-block;
+            font-size: 14px;
+            position: relative;
+            text-decoration: none;
+            &:not(.button) {
+                &:before {
+                    content: "";
+                    background-color: $black1-hover;
+                    bottom: -2px;
+                    height: 1px;
+                    left: 0;
+                    position: absolute;
+                    width: 0;
+                    transition: width 0.2s ease-in-out;
+                }
+                &:hover {
+                    color: $black1-hover;
+                    &:before {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .button {
+            background-color: $green1;
+            border-radius: $radius;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+            font-weight: 300;
+            color: $white;
+            padding: 8px $global-space;
+            &:hover {
+                background-color: $green1-hover;
+            }
+        }
+    }
+}

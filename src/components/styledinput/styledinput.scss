@@ -1,0 +1,35 @@
+@import "../../scss/variable";
+
+.styled-input {
+    height: 40px;
+    position: relative;
+    &__field {
+        border: 1px solid $grey2;
+        border-radius: $radius;
+        color: $grey3;
+        font-size: 14px;
+        height: 100%;
+        transition: all 0.2s ease-in-out;
+        &:focus {
+            outline: 0;
+        }
+    }
+    &__button {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        height: 20px;
+        outline: 0;
+        padding: 0;
+        position: absolute;
+        width: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        &:focus {
+            outline: 0;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}

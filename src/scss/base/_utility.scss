@@ -1,0 +1,69 @@
+.row {
+    margin-left: -($gutter-width/2);
+    margin-right: -($gutter-width/2);
+    @include clearfix();
+}
+[class*="col-"] {
+    float: left;
+    padding-left: ($gutter-width/2);
+    padding-right: ($gutter-width/2);
+    width: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $gutter-width/2;
+    padding-right: $gutter-width/2;
+    @include media-up(sm) {
+        width: $container-sm-width;
+    }
+    @include media-up(md) {
+        width: $container-md-width;
+    }
+    @include media-up(lg) {
+        width: $container-lg-width;
+    }
+    @include media-up(xl) {
+        width: $container-xl-width;
+    }
+    @include media-up(xxl) {
+        width: $container-xxl-width;
+    }
+}
+
+@include media-up(sm) {
+    @for $i from 1 through $max-col {
+        .#{$prefix}-sm-#{$i} {
+            width: (100% / ($max-col/$i)); 
+        }
+    }
+}
+@include media-up(md) {
+    @for $i from 1 through $max-col {
+        .#{$prefix}-md-#{$i} {
+            width: (100% / ($max-col/$i)); 
+        }
+    }
+}
+@include media-up(lg) {
+    @for $i from 1 through $max-col {
+        .#{$prefix}-lg-#{$i} {
+            width: (100% / ($max-col/$i)); 
+        }
+    }
+}
+@include media-up(xl) {
+    @for $i from 1 through $max-col {
+        .#{$prefix}-xl-#{$i} {
+            width: (100% / ($max-col/$i)); 
+        }
+    }
+}
+@include media-up(xxl) {
+    @for $i from 1 through $max-col {
+        .#{$prefix}-xxl-#{$i} {
+            width: (100% / ($max-col/$i)); 
+        }
+    }
+}
