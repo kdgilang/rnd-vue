@@ -1,0 +1,96 @@
+@import "../../../scss/variable";
+.footer {
+  background-color: $green1;
+  margin-top: 4rem;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  h4 {
+    color: $white;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .styled-list {
+    &__content {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+  }
+  &__left {
+    float: left;
+    width: 33%;
+  }
+  &__center {
+    float: left;
+    width: 33%;
+  }
+  &__right {
+    float: right;
+    max-width: 368px;
+  }
+  &__separator {
+    background-color: $green2;
+    display: block;
+    height: 1px;
+    margin-bottom: 20px;
+    margin-top: 32px;
+    width: 100%;
+  }
+  &__logo {
+    margin-right: 42px;
+  }
+  &__brand {
+    margin-right: 42px;
+    img {
+      width: 100px;
+    }
+  }
+  &__summary {
+    bottom: 14px;
+    color: $white;
+    display: inline-block;
+    font-size: 0.62rem;
+    line-height: 1rem;
+    font-weight: 300;
+    position: relative;
+  }
+  .social-link {
+    margin-top: 1rem;
+    img {
+      height: 24px;
+    }
+    &__fb {
+      margin-right: 1.2rem;
+      img {
+      }
+    }
+  }
+  .selectbox {
+    float: right;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    width: 108px;
+    &__select {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+    &__dropdown {
+        bottom: 100%;
+        margin-bottom: 1.2rem;
+        margin-top: 0;
+        top: auto;
+        &:after {
+            bottom: -9px;
+            transform: rotate(180deg);
+            top: auto;
+        }
+    }
+    &__caret {
+      line-height: 40px;
+    }
+  }
+  .dropdown__inner {
+    max-height: 200px;
+  }
+}

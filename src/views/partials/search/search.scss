@@ -1,0 +1,45 @@
+@import "../../../scss/variable";
+
+.search {
+    background-color: $green1;
+    padding: 24px 20px;
+
+    &__form {
+        height: 40px;
+        .styled-input {
+            float: left;
+            height: 100%;
+            margin-right: 8px;
+            &__field {
+                padding-left: 40px;
+                padding-right: 20px;
+            }
+            &__icon {
+                left: 10px;
+                img {
+                    height: 100%;
+                    width: auto;
+                }
+            }
+            &:first-child {
+                .styled-input__field {
+                    width: 336px;
+                }
+            }
+            &:nth-child(2) {
+                .styled-input__field {
+                    padding-left: 35px;
+                    width: 234px;
+                }
+            }
+        }
+    }
+    .form {
+        &__button {
+            float: left;
+            font-size: 1rem;
+            height: 100%;
+            padding: 10px 34px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@import "../../scss/variable";
+
+.styled-list {
+    &__title {
+        margin-bottom: 1rem;
+    }
+    &__content {
+        margin: 0;
+        padding: 0;
+    }
+    &__item {
+        list-style: none;
+        padding-top: 0.5rem;
+        a {
+            color: $white;
+            font-weight: 300;
+            text-decoration: none;
+            &:hover {
+                color: $black1-hover2;
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+@import "../../scss/variable";
+.pagination {
+    padding-top: 2rem;
+    &__inner {
+        &:after {
+            clear: both;
+            content: "";
+            display: block;
+        }
+    }
+    &__label {
+        float: left;
+        font-weight: 300;
+        line-height: 40px;
+        white-space: no-wrap;
+    }
+    &__content {
+        float: right;
+        height: 40px;
+    }
+    &__item {
+        background-color: $white;
+        border-radius: 50%;
+        cursor: pointer;
+        color: $grey3;
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 8px;
+        text-align: center;
+        transition: all 0.12s ease-in-out;
+        vertical-align: middle;
+        width: 40px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            background-color: $green1-hover;
+            color: $white;
+        }
+        &.active {
+            background-color: $green2;
+            cursor: default;
+            color: $white;
+        }
+        &_left {
+            background-image: url('~@/assets/images/icons/arrow-left@2x.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:  8px 12px;
+        }
+        &_right {
+            background-image: url('~@/assets/images/icons/arrow-right@2x.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 8px 12px;
+        }
+    }
+    &__single {
+        background-color: transparent;
+        border: 1px solid $green2;
+        color: $green2;
+        display: block;
+        font-size: 1rem;
+        font-weight: 300;
+        height: 40px;
+        line-height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 343px;
+        width: 100%;
+        &:hover {
+            background-color: $green1;
+        }
+    }
+}

@@ -3,6 +3,7 @@
     margin-right: -($gutter-width/2);
     @include clearfix();
 }
+
 [class*="col-"] {
     float: left;
     padding-left: ($gutter-width/2);
@@ -15,55 +16,69 @@
     margin-right: auto;
     padding-left: $gutter-width/2;
     padding-right: $gutter-width/2;
+    width: 100%;
     @include media-up(sm) {
-        width: $container-sm-width;
+        max-width: $container-sm-width;
     }
     @include media-up(md) {
-        width: $container-md-width;
+        max-width: $container-md-width;
     }
     @include media-up(lg) {
-        width: $container-lg-width;
+        max-width: $container-lg-width;
     }
     @include media-up(xl) {
-        width: $container-xl-width;
-    }
-    @include media-up(xxl) {
-        width: $container-xxl-width;
+        max-width: $container-xl-width;
     }
 }
 
+/* Media */
+[class*="visible-"] {
+    display: none;
+}
+[class*="hidden-"] {
+    display: block;
+}
+.visible-xs {
+    display: block !important;
+}
+.hidden-xs {
+    display: none !important;
+}
+@include loopColoumn(xs);
+
 @include media-up(sm) {
-    @for $i from 1 through $max-col {
-        .#{$prefix}-sm-#{$i} {
-            width: (100% / ($max-col/$i)); 
-        }
+    @include loopColoumn(sm);
+    .visible-sm {
+        display: block !important;
+    }
+    .hidden-sm {
+        display: none !important;
     }
 }
 @include media-up(md) {
-    @for $i from 1 through $max-col {
-        .#{$prefix}-md-#{$i} {
-            width: (100% / ($max-col/$i)); 
-        }
+    @include loopColoumn(md);
+    .visible-md {
+        display: block !important;
+    }
+    .hidden-md {
+        display: none !important;
     }
 }
 @include media-up(lg) {
-    @for $i from 1 through $max-col {
-        .#{$prefix}-lg-#{$i} {
-            width: (100% / ($max-col/$i)); 
-        }
+    @include loopColoumn(lg);
+    .visible-lg {
+        display: block !important;
+    }
+    .hidden-lg {
+        display: none !important;
     }
 }
 @include media-up(xl) {
-    @for $i from 1 through $max-col {
-        .#{$prefix}-xl-#{$i} {
-            width: (100% / ($max-col/$i)); 
-        }
+    @include loopColoumn(xl);
+    .visible-xl {
+        display: block !important;
     }
-}
-@include media-up(xxl) {
-    @for $i from 1 through $max-col {
-        .#{$prefix}-xxl-#{$i} {
-            width: (100% / ($max-col/$i)); 
-        }
+    .hidden-xl {
+        display: none !important;
     }
 }

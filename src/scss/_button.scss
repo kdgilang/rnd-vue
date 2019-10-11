@@ -1,0 +1,24 @@
+.button {
+  border: none;
+  border-radius: $radius;
+  cursor: pointer;
+  color: $white;
+  display: inline-block;
+  outline: 0;
+  transition: background-color 0.2s ease-in-out;
+  &:focus {
+    outline: 0;
+  }
+  &_primary {
+    background-color: $green2;
+    &:hover {
+      background-color: $green1-hover;
+    }
+  }
+  &_secondary {
+    background-color: $green1;
+    &:hover {
+      background-color: $green1-hover;
+    }
+  }
+}

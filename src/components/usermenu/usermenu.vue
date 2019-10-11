@@ -1,7 +1,7 @@
 <template>
     <ul v-if="isVisible" class="user-menu">
         <li class="user-menu__item"><a href="/login">Login</a></li>
-        <li class="user-menu__item"><a href="/sign-up" class="button">Sign up</a></li>
+        <li class="user-menu__item"><a href="/sign-up" class="button button_secondary">Sign up</a></li>
     </ul>
 </template>
 

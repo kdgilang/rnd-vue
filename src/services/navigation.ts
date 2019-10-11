@@ -1,13 +1,31 @@
-import navjson from '@/mockup/api.navigation.json';
+import axios from 'axios';
 
 export async function getNavigations(): Promise<any> {
-    try {
-        // disabled since json imported directly.
-        // const req: string = 'http://localhost:8080/mockup/api.navigation.json';
-        // const data: Response = await fetch(req);
-        return await navjson;
-    } catch (e) {
-        console.error(e);
-        return [];
-    }
+  try {
+    const req: string = './mockup/api.navigation.json';
+    const res = await axios.get(req);
+    return await res.data;
+  } catch (e) {
+    return [];
+  }
+}
+
+export async function getExploreLocations(): Promise<any> {
+  try {
+    const req: string = './mockup/api.explorelocation.json';
+    const res = await axios.get(req);
+    return await res.data;
+  } catch (e) {
+    return [];
+  }
+}
+
+export async function getOtherStuff(): Promise<any> {
+  try {
+    const req: string = './mockup/api.otherstuff.json';
+    const res = await axios.get(req);
+    return await res.data;
+  } catch (e) {
+    return [];
+  }
 }

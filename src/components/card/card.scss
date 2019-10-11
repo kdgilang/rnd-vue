@@ -1,0 +1,82 @@
+@import "../../scss/variable";
+@import "../../scss/mixin";
+
+.card {
+  background-color: $white;
+  border-radius: $radius;
+  box-shadow: 0 2px 5px rgba($black1, 0.23);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  &__head {
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    img {
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      @include media-up(md) {
+        width: auto;
+      }
+    }
+    &__label {
+      background-color: $green1;
+      bottom: 10px;
+      border-radius: $radius;
+      box-shadow: 0 2px 3px rgba($black1, 0.14);
+      color: $white;
+      display: block;
+      font-weight: 300;
+      left: 10px;
+      padding: 6px 20px 6px 10px;
+      position: absolute;
+      z-index: 2;
+    }
+  }
+  &__title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
+  &__name {
+    color: $green1;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+  }
+  &__label {
+    color: $grey3;
+    font-weight: 300;
+  }
+  &__price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 0.2rem;
+  }
+  &__body {
+    max-height: 140px;
+    overflow: hidden;
+    padding: 1rem;
+  }
+  &__meta {
+    &:after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+  }
+  &__left {
+    float: left;
+    width: 50%;
+  }
+  &__right {
+    float: left;
+    text-align: right;
+    width: 50%;
+  }
+}

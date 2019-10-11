@@ -1,0 +1,12 @@
+@import "../../../scss/variable";
+.page-category {
+    .row {
+        margin-left: -($global-space/2);
+        margin-right: -($global-space/2);
+    }
+    &__content {
+        [class*="col"] {
+            padding: ($global-space/2);
+        }
+    }
+}

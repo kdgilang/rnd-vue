@@ -10,12 +10,11 @@
             margin-right: 0;
         }
         a {
-            color: $black1;
             display: inline-block;
-            font-size: 14px;
             position: relative;
             text-decoration: none;
             &:not(.button) {
+                color: $black1;
                 &:before {
                     content: "";
                     background-color: $black1-hover;
@@ -35,11 +34,8 @@
             }
         }
         .button {
-            background-color: $green1;
-            border-radius: $radius;
             box-shadow: 0 2px 4px rgba(0,0,0,0.5);
             font-weight: 300;
-            color: $white;
             padding: 8px $global-space;
             &:hover {
                 background-color: $green1-hover;

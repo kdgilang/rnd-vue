@@ -1,4 +1,5 @@
-import { navigations } from './navigations';
+import { postgetters } from './post';
+
 export default {
-    ...navigations,
+  ...postgetters,
 };

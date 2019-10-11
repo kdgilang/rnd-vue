@@ -1,0 +1,33 @@
+@import "../../scss/variable";
+
+.form-subscribe {
+    &__label {
+        color: $white;
+        display: block;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+    }
+    &__form {
+        height: 40px;
+        .styled-input {
+            float: left;
+            height: 100%;
+            &__field {
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                padding-left: $global-space;
+                width: 232px;
+            }
+        }
+        .button_primary {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            float: left;
+            font-size: 14px;
+            font-weight: 300;
+            height: 100%;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+    }
+}

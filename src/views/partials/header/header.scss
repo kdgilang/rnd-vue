@@ -6,6 +6,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 9999;
     &__left {
         height: 36px;
     }
@@ -38,7 +39,7 @@
                 background-color: $white;
             }
         }
-        &__button {
+        &__icon {
             left: 8px;
         }
     }

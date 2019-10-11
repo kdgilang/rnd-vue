@@ -1,0 +1,67 @@
+{
+    "id": "1sdf34dsfasdf3214",
+    "date": 234234234,
+    "title": "Explore by location",
+    "list": [
+        {
+            "title": "Seminyak",
+            "slug": "seminyak",
+            "url": "/seminyak",
+            "published": true
+        },
+        {
+            "title": "Legian",
+            "slug": "legian",
+            "url": "/legian",
+            "published": true
+        },
+        {
+            "title": "Uluwatu",
+            "slug": "uluwatu",
+            "url": "/uluwatu",
+            "published": true
+        },
+        {
+            "title": "The Gili Islands",
+            "slug": "the-gili-islands",
+            "url": "/the-gili-islands",
+            "published": true
+        },
+        {
+            "title": "Kuta",
+            "slug": "kuta",
+            "url": "/kuta",
+            "published": true
+        },
+        {
+            "title": "Jimbaran",
+            "slug": "jimbaran",
+            "url": "/jimbaran",
+            "published": true
+        },
+        {
+            "title": "Canggu",
+            "slug": "canggu",
+            "url": "/canggu",
+            "published": true
+        },
+        {
+            "title": "Ubud",
+            "slug": "ubud",
+            "url": "/ubud",
+            "published": true
+        },
+        {
+            "title": "North Bali",
+            "slug": "north-bali",
+            "url": "/north-bali",
+            "published": true
+        },
+        {
+            "title": "Nusa Lembongan",
+            "slug": "nusa-lembongan",
+            "url": "/nusa-lembongan",
+            "published": true
+        }
+    ]
+}

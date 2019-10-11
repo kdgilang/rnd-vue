@@ -4,10 +4,12 @@
     vertical-align: middle;
     &__item {
         color: $black1;
-        font-size: 14px;
-        margin-right: 53px;
+        margin-right: 3rem;
         position: relative;
         text-decoration: none;
+        &:last-child {
+            margin-right: 0;
+        }
         &:before {
             content: "";
             background-color: $black1-hover;

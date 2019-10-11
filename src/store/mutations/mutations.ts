@@ -1,4 +1,4 @@
-import { navigations } from './navigations';
+import { postmutations } from './post';
 export default {
-    ...navigations,
+    ...postmutations,
 };
