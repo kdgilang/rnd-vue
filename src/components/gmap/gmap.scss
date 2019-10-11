@@ -1,4 +1,5 @@
 @import "../../scss/variable";
+@import "../../scss/mixin";
 .g-map {
   background-color: rgba($black1, 0.95);
   height: 100%;
@@ -14,22 +15,56 @@
     opacity: 1;
     visibility: visible;
   }
+  &__close {
+    border: 1px solid $white;
+    border-radius: $radius;
+    color: $white;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: 300;
+    height: 35px;
+    padding: 10px 45px 10px 20px;
+    position: absolute;
+    right: 15px;
+    top: -30px;
+    transition: all 0.15s ease-in-out;
+    &:before {
+      content: "";
+      background-image: url('~@/assets/images/icons/icon-close@2x.png');
+      background-size: contain;
+      background-position: top right;
+      background-repeat: no-repeat;
+      height: 15px;
+      position: absolute;
+      right: 15px;
+      top: 9px;
+      width: 15px;
+    }
+    &:hover {
+      border-color: $green1-hover;
+      color: $green1-hover;
+    }
+  }
   &__inner {
-    background-color: $white;
-    border-color: 1px solid $green1;
-    box-shadow: 0 2px 4px rgba($black1, 0.3);
-    height: 100%;
     left: 50%;
-    max-height: 550px;
+    height: 100%;
+    max-height: 350px;
     max-width: 950px;
-    padding: $global-space/2;
+    padding: $global-space;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    @include media-up(md) {
+      max-height: 550px;
+    }
     .vue-map-container {
-        height: 100%;
-        width: 100%;
+      border: 10px solid $white;
+      border-radius: $radius;
+      box-shadow: 0 2px 4px rgba($black1, 0.3);
+      height: 100%;
+      padding: $global-space/2;
+      width: 100%;
     }
   }
 }

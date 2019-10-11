@@ -30,15 +30,14 @@ export default class Selectbox extends Vue {
   private label?: string;
   @Prop({ default: true })
   private closeOnSelect?: boolean;
-
-  private selectboxClass: string[];
   private selectedValue: any;
   private caret: string;
+  private isVisible: boolean;
 
   constructor() {
     super();
-    this.selectboxClass = ['selectbox'];
     this.caret = '';
+    this.isVisible = false;
   }
   get defaultCaret(): string {
     if (this.defaultValue && this.defaultValue >= 0) {
@@ -47,6 +46,9 @@ export default class Selectbox extends Vue {
     }
     return '';
   }
+  get selectboxClass(): any[] {
+    return ['selectbox', this.isVisible && 'opened'];
+  }
   get selectLabel(): string {
     return this.caret;
   }
@@ -54,16 +56,10 @@ export default class Selectbox extends Vue {
     this.caret = val;
   }
   private onSelectClick(): void {
-    if (this.selectboxClass.indexOf('opened') < 0) {
-      this.selectboxClass.push('opened');
-    } else {
-      this.selectboxClass = ['selectbox'];
-    }
+    this.isVisible = (this.selectboxClass.indexOf('opened') < 0) && true;
   }
   private onSelect(val: any): void {
-    if (this.closeOnSelect) {
-      this.selectboxClass = ['selectbox'];
-    }
+    this.isVisible = this.closeOnSelect ? false : false;
     const { label } = val;
     this.selectLabel = label;
     this.selectedValue = val;

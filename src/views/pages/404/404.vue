@@ -15,7 +15,11 @@
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component({})
-export default class PageNotFound extends Vue {}
+export default class PageNotFound extends Vue {
+  public mounted() {
+    document.title = this.$route.meta.title;
+  }
+}
 </script>
 
 <style lang="scss" scoped>

@@ -22,7 +22,9 @@
         }
         &:hover,
         &.active {
-            color: $black1-hover2;
+            .category__label {
+                color: $black1-hover2;
+            }
             &:after {
                 width: 100%;
             }
@@ -32,6 +34,9 @@
                 opacity: 1;
                 visibility: visible;
             }
+        }
+        .dropdown {
+            margin-top: 0;
         }
     }
     &__icon {

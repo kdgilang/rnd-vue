@@ -14,8 +14,8 @@
                             <span class="label">Sort By</span>
                             <Selectbox />
                         </div>
-                        <button class="button" @click="isMapVisible=!isMapVisible">See Map</button>
-                        <Gmap :visible="isMapVisible" />
+                        <button class="button" @click="toggleMap(true)">See Map</button>
+                        <Gmap v-if="isMapVisible" :visible="isMapVisible" :classes="mapClass" @onClose="toggleMap(false)" />
                     </div>
                 </div>
             </div>
@@ -36,10 +36,27 @@ import Gmap from '@/components/gmap/gmap.vue';
 })
 export default class FilterBlock extends Vue {
     private isMapVisible: boolean;
+    private mapClass: string[];
 
     constructor() {
         super();
         this.isMapVisible = false;
+        this.mapClass = [];
+    }
+    private toggleMap(val: boolean): void {
+        if (!val) {
+            const index = this.mapClass.indexOf('opened');
+            this.mapClass.splice(index, 1);
+        } else {
+            this.isMapVisible =  val;
+        }
+        setTimeout(() => {
+            if (!val) {
+                this.isMapVisible = val;
+            } else {
+                this.mapClass.push('opened');
+            }
+        }, 200);
     }
 }
 </script>

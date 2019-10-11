@@ -20,6 +20,9 @@ export default new Router({
       path: '**',
       name: '404',
       component: PageNotFound,
+      meta: {
+        title: 'TBB | 404',
+      },
     },
   ],
 });

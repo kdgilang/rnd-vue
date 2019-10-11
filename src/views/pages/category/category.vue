@@ -55,6 +55,7 @@ export default class CategoryPage extends Vue {
   }
 
   private mounted() {
+    document.title = this.$route.meta.title;
     this.$store.dispatch(SET_POSTS);
   }
 }

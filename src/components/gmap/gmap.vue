@@ -1,7 +1,7 @@
 <template>
     <div :class="mapClass">
-        <div class="close gmap__close"></div>
         <div class="g-map__inner">
+            <div class="close g-map__close" @click="onClose">Close Map</div>
             <GmapMap
             :center="{lat:-8.3883447, lng: 115.1594523}"
             :zoom="10"
@@ -21,35 +21,20 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop, Watch } from 'vue-property-decorator';
+import { Component, Vue, Prop, Emit } from 'vue-property-decorator';
 
 @Component({})
 export default class Gmap extends Vue {
-    @Prop({ default: false })
-    private visible?: boolean;
-    private isMapVisible: boolean;
-    private mapClass: any[];
+    @Prop({ default: () => [] })
+    private classes?: any;
 
-    constructor() {
-        super();
-        this.mapClass = ['g-map', (this.visible) && 'opened'];
-        this.isMapVisible = false;
+    get mapClass(): any[] {
+        return ['g-map', ...this.classes];
     }
 
-    @Watch('visible')
-    private watchVisible(val: boolean, oldval: boolean): void {
-        if (!val) {
-            this.mapClass = ['g-map'];
-        } else {
-            this.isMapVisible = val;
-        }
-        setTimeout(() => {
-            if (!val) {
-                this.isMapVisible = val;
-            } else {
-                this.mapClass.push('opened');
-            }
-        }, 200);
+    @Emit('onClose')
+    private onClose(): void {
+        const dev = 'gilang';
     }
 }
 </script>
