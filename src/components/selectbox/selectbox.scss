@@ -1,7 +1,7 @@
 @import "../../scss/variable";
 .selectbox {
   position: relative;
-  z-index: 100;
+  z-index: 50;
   &__caret {
     display: inline-block;
     overflow: hidden;
@@ -55,6 +55,7 @@
   transition: all 0.1s ease-in-out;
   visibility: hidden;
   width: 100%;
+  z-index: 100;
   &:after {
     content: "";
     background-image: url("~@/assets/images/icons/arrow-up.png");

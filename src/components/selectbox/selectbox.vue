@@ -22,7 +22,7 @@ import { Component, Vue, Prop } from 'vue-property-decorator';
 
 @Component({})
 export default class Selectbox extends Vue {
-  @Prop({ default: [] })
+  @Prop({ default: () => [] })
   private data?: any[];
   @Prop()
   private defaultValue?: number;

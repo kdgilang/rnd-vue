@@ -1,0 +1,35 @@
+@import "../../scss/variable";
+.g-map {
+  background-color: rgba($black1, 0.95);
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  transition: all 0.35s ease-in-out;
+  visibility: hidden;
+  width: 100%;
+  z-index: 99999;
+  &.opened {
+    opacity: 1;
+    visibility: visible;
+  }
+  &__inner {
+    background-color: $white;
+    border-color: 1px solid $green1;
+    box-shadow: 0 2px 4px rgba($black1, 0.3);
+    height: 100%;
+    left: 50%;
+    max-height: 550px;
+    max-width: 950px;
+    padding: $global-space/2;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    .vue-map-container {
+        height: 100%;
+        width: 100%;
+    }
+  }
+}

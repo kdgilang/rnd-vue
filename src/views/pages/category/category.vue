@@ -2,6 +2,7 @@
   <div class="page page-category">
     <SearchBlock />
     <Category />
+    <FilterBlock />
     <div class="page-category__content">
       <div class="container" v-if="dataPosts">
         <div class="row">
@@ -24,11 +25,12 @@ import SearchBlock from '@/views/partials/search/search.vue';
 import Category from '@/views/partials/category/category.vue';
 import Card from '@/components/card/card.vue';
 import Pagination from '@/components/pagination/pagination.vue';
-
+import FilterBlock from '@/views/partials/filter/filter.vue';
 
 @Component({
   components: {
     SearchBlock,
+    FilterBlock,
     Pagination,
     Category,
     Card,

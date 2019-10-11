@@ -1,6 +1,7 @@
 @import "../../../scss/variable";
 .category {
     background-color: $white;
+    z-index: 200;
     &__list {
         cursor: pointer;
         float: left;
@@ -24,6 +25,12 @@
             color: $black1-hover2;
             &:after {
                 width: 100%;
+            }
+        }
+        &:hover {
+            .dropdown {
+                opacity: 1;
+                visibility: visible;
             }
         }
     }
