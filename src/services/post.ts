@@ -1,10 +1,10 @@
-// import postsjson from '@/mockup/api.posts.json';
+import axios from 'axios';
 
 export async function getPosts(): Promise<any> {
   try {
-    const req: string = 'http://localhost:8080/mockup/api.posts.json';
-    const data: Response = await fetch(req);
-    return await data.json();
+    const req: string = './mockup/api.posts.json';
+    const res = await axios.get(req);
+    return await res.data;
   } catch (e) {
     return [];
   }
