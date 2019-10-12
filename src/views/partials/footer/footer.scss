@@ -1,9 +1,19 @@
 @import "../../../scss/variable";
+@import "../../../scss/mixin";
 .footer {
   background-color: $green1;
   margin-top: 4rem;
-  padding-bottom: 20px;
-  padding-top: 30px;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  @include media-up(md) {
+    padding-bottom: 20px;
+    padding-top: 30px;
+  }
+  .logo-two {
+    img {
+      width: 100px;
+    }
+  }
   h4 {
     color: $white;
     font-size: 1rem;
@@ -17,16 +27,40 @@
     }
   }
   &__left {
-    float: left;
-    width: 33%;
+    @include media-up(md) {
+      float: left;
+      padding-right: 1rem;
+      width: 50%;
+    }
+    @include media-up(lg) {
+      width: 33%;
+    }
   }
   &__center {
-    float: left;
-    width: 33%;
+    @include media-up(md) {
+      float: left;
+      padding-right: 1rem;
+      width: 50%;
+    }
+    @include media-up(lg) {
+      width: 33%;
+    }
   }
   &__right {
-    float: right;
-    max-width: 368px;
+    width: 100%;
+    @include media-up(md) {
+      float: left;
+      margin-top: 1rem;
+      max-width: 368px;
+    }
+    @include media-up(lg) {
+      float: right;
+      max-width: 30%;
+      margin-top: 0;
+    }
+    @include media-up(xl) {
+      max-width: 368px;
+    }
   }
   &__separator {
     background-color: $green2;
@@ -36,13 +70,28 @@
     margin-top: 32px;
     width: 100%;
   }
-  &__logo {
-    margin-right: 42px;
+  &__bottom {
+    text-align: center;
+    @include media-up(md) {
+      text-align: left;
+    }
   }
-  &__brand {
-    margin-right: 42px;
-    img {
-      width: 100px;
+  &__logo {
+    display: block;
+    margin-bottom: 2rem;
+    &:nth-child(1) {
+      margin-bottom: 1rem;
+    }
+    @include media-up(md) {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-right: 1.4rem;
+      &:nth-child(1) {
+        margin-bottom: 0;
+      }
+    }
+    @include media-up(lg) {
+      margin-right: 42px;
     }
   }
   &__summary {
@@ -55,7 +104,12 @@
     position: relative;
   }
   .social-link {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    @include media-up(md) {
+      margin-top: 1rem;
+      text-align: left;
+    }
     img {
       height: 24px;
     }
@@ -66,11 +120,17 @@
     }
   }
   .selectbox {
-    float: right;
     height: 40px;
-    position: relative;
-    top: 5px;
+    margin: 1rem auto 2rem;
+    text-align: left;
     width: 108px;
+    @include media-up(md) {
+      float: right;
+      margin-bottom: 0;
+      margin-top: 0;
+      position: relative;
+      top: 4px;
+    }
     &__select {
       padding-bottom: 0;
       padding-top: 0;
@@ -92,5 +152,23 @@
   }
   .dropdown__inner {
     max-height: 200px;
+  }
+  .form-subscribe {
+    &__form {
+      height: 40px;
+      position: relative;
+      width: 100%;
+      .button {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+    .styled-input {
+      width: 100%;
+      &__field {
+        width: 99%;
+      }
+    }
   }
 }

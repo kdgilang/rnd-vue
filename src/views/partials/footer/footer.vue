@@ -6,9 +6,11 @@
           <div class="footer__left">
             <StyledList :data="expListData" />
           </div>
+          <div class="separator footer__separator hidden-md"></div>
           <div class="footer__center">
             <StyledList :data="othListData" />
           </div>
+          <div class="separator footer__separator hidden-md"></div>
           <div class="footer__right">
             <FormSubscribe>
               <div class="social-link">
@@ -28,12 +30,15 @@
           <div class="separator footer__separator"></div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12 col-lg-7">
+      <div class="row footer__bottom">
+        <div class="col-xs-12 hidden-md">
+            <Selectbox :data="currencyData" defaultValue="5"/>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-9">
           <a class="logo footer__logo" href="/">
             <img src="../../../assets/images/footer-logo@2x.png" alt="TBB Logo" />
           </a>
-          <a class="brand footer__brand" href="/">
+          <a class="logo logo-two footer__logo" href="/">
             <img src="../../../assets/images/logo-afta@2x.png" alt="TBB Logo" />
           </a>
           <div class="footer__summary">
@@ -43,7 +48,7 @@
             </span>
           </div>
         </div>
-        <div class="col-xs-12 col-lg-5">
+        <div class="col-md-2 col-lg-3 visible-md">
             <Selectbox :data="currencyData" defaultValue="5"/>
         </div>
       </div>

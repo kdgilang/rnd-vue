@@ -64,6 +64,14 @@ export default class Selectbox extends Vue {
     this.selectLabel = label;
     this.selectedValue = val;
   }
+  private created(): void {
+    window.addEventListener('click', (e: any) => {
+    // close dropdown when clicked outside
+    if (!this.$el.contains(e.target)) {
+      this.isVisible = false;
+    }
+  });
+  }
 }
 </script>
 

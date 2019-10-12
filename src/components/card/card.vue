@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card__head">
-      <img @load="imageLoaded" :src="imgsrc" alt="image" />
+      <img @load="imageLoaded" @error="imageLoaded" :src="imgsrc" alt="image" />
       <span class="card__head__label">{{tagLabel}}</span>
     </div>
     <div class="card__body">
