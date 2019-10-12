@@ -62,7 +62,7 @@ export default class Card extends Vue {
   private imageLoaded(): void {
     setTimeout(() => {
       this.showLoader = false;
-    }, 400);
+    }, 600);
   }
 }
 </script>

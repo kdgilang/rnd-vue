@@ -63,5 +63,17 @@
     }
     .selectbox {
         height: 40px;
+        &.opened {
+            .selectbox__select {
+                border-color: $black1-hover2;
+                color: $black1;
+            }
+        }
+        &__select {
+            color: $grey3;
+            font-weight: 400;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
     }
 }

@@ -2,7 +2,7 @@
   <div v-if="data" class="styled-list">
     <h4 v-if="title" class="styled-list__title">{{title}}</h4>
     <ul v-if="content" class="styled-list__content">
-        <li v-for="(item, i) in content" :key="i" class="styled-list__item"><a href="">{{item.title}}</a></li>
+        <li v-for="(item, i) in content" :key="i" class="styled-list__item"><router-link to="/">{{item.title}}</router-link></li>
     </ul>
   </div>
 </template>

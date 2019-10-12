@@ -14,10 +14,10 @@
           <div class="footer__right">
             <FormSubscribe>
               <div class="social-link">
-                <a href="https://facebook.com" class="social-link__fb">
+                <a href="https://facebook.com" target="_blank" class="social-link__fb">
                   <img src="../../../assets/images/icons/fb@2x.png" alt="facebook" />
                 </a>
-                <a href="https://instagram.com" class="social-link__ig">
+                <a href="https://instagram.com" target="_blank" class="social-link__ig">
                   <img src="../../../assets/images/icons/ig@2x.png" alt="instagram" />
                 </a>
               </div>
@@ -32,15 +32,15 @@
       </div>
       <div class="row footer__bottom">
         <div class="col-xs-12 hidden-md">
-            <Selectbox :data="currencyData" defaultValue="5"/>
+            <Selectbox :data="currencyData" label="Currency" defaultSelectedIndex="5"/>
         </div>
         <div class="col-xs-12 col-md-10 col-lg-9">
-          <a class="logo footer__logo" href="/">
+          <router-link class="logo footer__logo" :to="{name: 'front-page'}">
             <img src="../../../assets/images/footer-logo@2x.png" alt="TBB Logo" />
-          </a>
-          <a class="logo logo-two footer__logo" href="/">
+          </router-link>
+          <router-link class="logo logo-two footer__logo" :to="{name: 'front-page'}">
             <img src="../../../assets/images/logo-afta@2x.png" alt="TBB Logo" />
-          </a>
+          </router-link>
           <div class="footer__summary">
             <span>
               The Bali Bible is a part of the TRAVLR GROUP.
@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="col-md-2 col-lg-3 visible-md">
-            <Selectbox :data="currencyData" label="test" defaultSelectedIndex="3"/>
+            <Selectbox :data="currencyData" label="Currency" defaultSelectedIndex="5"/>
         </div>
       </div>
     </div>

@@ -65,7 +65,9 @@ export default class Selectbox extends Vue {
   }
   @Watch('defaultSelectedLabel')
   private watchLabel(val: string, oldval: string): void {
-    this.caret = val;
+    if (val) {
+      this.caret = val;
+    }
   }
 }
 </script>

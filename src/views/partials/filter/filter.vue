@@ -61,6 +61,6 @@ export default class FilterBlock extends Vue {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "filter.scss";
 </style>

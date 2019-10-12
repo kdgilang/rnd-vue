@@ -1,6 +1,6 @@
 <template>
     <nav :class="classname" v-if="navdata">
-        <a v-for="item in navdata" :key="item.slug" :href="item.url" class="nav__item">{{item.title}}</a>
+        <router-link v-for="item in navdata" :key="item.slug" :to="item.url" class="nav__item">{{item.title}}</router-link>
     </nav>
 </template>
 

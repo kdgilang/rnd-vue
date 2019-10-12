@@ -4,9 +4,9 @@
       <div class="row">
         <div class="col-md-7">
           <div class="header__left">
-            <a class="logo header__logo" href="/">
+            <router-link class="logo header__logo" :to="{name: 'front-page'}">
               <img src="../../../assets/images/logo@2x.png" alt="TBB Logo" />
-            </a>
+            </router-link>
             <Navigation class="nav header__nav"></Navigation>
           </div>
         </div>
