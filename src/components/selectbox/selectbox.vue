@@ -1,7 +1,7 @@
 <template>
   <div v-if="data" :class="selectboxClass">
-    <div class="selectbox__select" @click="onSelectClick">
-      <span class="selectbox__caret">{{selectLabel}}</span>
+    <div class="selectbox__select" @click="isVisible = !isVisible">
+      <span class="selectbox__caret">{{caret}}</span>
       <span class="selectbox__icon"></span>
     </div>
     <div class="dropdown selectbox__dropdown">
@@ -18,14 +18,14 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop } from 'vue-property-decorator';
+import { Component, Vue, Prop, Watch } from 'vue-property-decorator';
 
 @Component({})
 export default class Selectbox extends Vue {
   @Prop({ default: () => [] })
   private data?: any[];
-  @Prop()
-  private defaultValue?: number;
+  @Prop({ default: -1 })
+  private defaultSelectedIndex?: number;
   @Prop({ default: '' })
   private label?: string;
   @Prop({ default: true })
@@ -36,41 +36,36 @@ export default class Selectbox extends Vue {
 
   constructor() {
     super();
-    this.caret = '';
+    this.caret = this.label || '';
     this.isVisible = false;
-  }
-  get defaultCaret(): string {
-    if (this.defaultValue && this.defaultValue >= 0) {
-      this.selectedValue = (this.data && this.data[this.defaultValue]) || {};
-      return this.selectedValue && this.selectedValue.label;
-    }
-    return '';
   }
   get selectboxClass(): any[] {
     return ['selectbox', this.isVisible && 'opened'];
   }
-  get selectLabel(): string {
-    return this.caret;
-  }
-  set selectLabel(val) {
-    this.caret = val;
-  }
-  private onSelectClick(): void {
-    this.isVisible = (this.selectboxClass.indexOf('opened') < 0) && true;
+  get defaultSelectedLabel(): string {
+    return (
+      this.defaultSelectedIndex &&
+      this.data &&
+      this.data[this.defaultSelectedIndex] &&
+      this.data[this.defaultSelectedIndex].label
+    );
   }
   private onSelect(val: any): void {
     this.isVisible = this.closeOnSelect ? false : false;
     const { label } = val;
-    this.selectLabel = label;
+    this.caret = label;
     this.selectedValue = val;
   }
   private created(): void {
     window.addEventListener('click', (e: any) => {
-    // close dropdown when clicked outside
-    if (!this.$el.contains(e.target)) {
-      this.isVisible = false;
-    }
-  });
+      if (!this.$el.contains(e.target)) {
+        this.isVisible = false;
+      }
+    });
+  }
+  @Watch('defaultSelectedLabel')
+  private watchLabel(val: string, oldval: string): void {
+    this.caret = val;
   }
 }
 </script>

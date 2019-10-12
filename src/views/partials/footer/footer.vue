@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="col-md-2 col-lg-3 visible-md">
-            <Selectbox :data="currencyData" defaultValue="5"/>
+            <Selectbox :data="currencyData" label="test" defaultSelectedIndex="3"/>
         </div>
       </div>
     </div>
