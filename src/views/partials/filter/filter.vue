@@ -12,7 +12,9 @@
                     <div class="filter__right">
                         <div class="filter-sort">
                             <span class="label">Sort By</span>
-                            <Selectbox />
+                            <Selectbox :data="sortData" label="Sort By" defaultSelectedIndex="0" openOnSelect="true">
+                                <span class="bullet"></span>
+                            </Selectbox>
                         </div>
                         <button class="button" @click="toggleMap(true)">See Map</button>
                         <Gmap v-if="isMapVisible" :visible="isMapVisible" :classes="mapClass" @onClose="toggleMap(false)" />
@@ -37,11 +39,13 @@ import Gmap from '@/components/gmap/gmap.vue';
 export default class FilterBlock extends Vue {
     private isMapVisible: boolean;
     private mapClass: string[];
+    private sortData: any[];
 
     constructor() {
         super();
         this.isMapVisible = false;
         this.mapClass = [];
+        this.sortData = [{id: 1111, label: 'Most Popular'}, {id: 1211, label: 'Latest Deals'}, {id: 1311, label: 'Lowest Price'}, {id: 1411, label: 'Highest Price'}];
     }
     private toggleMap(val: boolean): void {
         if (!val) {

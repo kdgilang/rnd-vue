@@ -5,6 +5,7 @@
     z-index: 200;
     &__content {
         overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
         white-space: nowrap;
         @include media-up(lg) {
             overflow-x: initial;

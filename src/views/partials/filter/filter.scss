@@ -36,10 +36,6 @@
                     display: inline-block;
                 }
             }
-            .selectbox {
-                float: left;
-                width: 200px;
-            }
         }
         .button {
             background-color: transparent;
@@ -66,6 +62,45 @@
                 position: absolute;
                 height: 18px;
                 width: 18px;
+            }
+        }
+        .selectbox {
+            float: left;
+            width: 200px;
+            &__label {
+                vertical-align: middle;
+            }
+            .dropdown__button {
+                &.selected {
+                    .bullet {
+                        border-color: $black1-hover2;
+                        &:before {
+                            background-color: $black1-hover2;
+                        }
+                    }
+                }
+            }
+            .bullet {
+                border: 2px solid $grey5;
+                border-radius: 18px;
+                display: inline-block;
+                height: 18px;
+                margin-right: 0.6rem;
+                position: relative;
+                transition: all 0.15s ease-in-out;
+                vertical-align: middle;
+                width: 18px;
+                &:before {
+                    content: "";
+                    border-radius: 10px;
+                    height: 10px;
+                    left: 50%;
+                    position: absolute;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    transition: all 0.15s ease-in-out;
+                    width: 10px;
+                }
             }
         }
     }

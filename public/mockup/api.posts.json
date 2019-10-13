@@ -11,7 +11,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://raw.githubusercontent.com/kdgilang/thebalibible/master/img/post/all-food-1.jpg",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [1, 3]
         },
         {
             "id": "sasd2312233sfdsf",
@@ -22,7 +23,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://raw.githubusercontent.com/kdgilang/thebalibible/master/img/post/all-food-2.jpg",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2, 6]
         },
         {
             "id": "sas2d23233sfdsf",
@@ -33,7 +35,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://raw.githubusercontent.com/kdgilang/thebalibible/master/img/post/all-food-3.jpg",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [3, 5, 7]
         },
         {
             "id": "sasd237233sfdsf",
@@ -44,7 +47,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://raw.githubusercontent.com/kdgilang/thebalibible/master/img/post/all-food-4.jpg",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [4]
         },
         {
             "id": "sasd232338sfdsf",
@@ -55,7 +59,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://raw.githubusercontent.com/kdgilang/thebalibible/master/img/post/all-food-5.jpg",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [5]
         },
         {
             "id": "sasd2323336sfdsf",
@@ -66,7 +71,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://raw.githubusercontent.com/kdgilang/thebalibible/master/img/post/all-food-6.jpg",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [6]
         },
         {
             "id": "sasd2396233sfdsf",
@@ -77,7 +83,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [7]
         },
         {
             "id": "sasd23258433sfdsf",
@@ -88,7 +95,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [1]
         },
         {
             "id": "sasd23234633sfdsf",
@@ -99,7 +107,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         },
         {
             "id": "sasd23233s25fdsf",
@@ -110,7 +119,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [3]
         },
         {
             "id": "sasd23233sfg3dsf",
@@ -121,7 +131,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [4]
         },
         {
             "id": "sasd23233sff43fdsf",
@@ -132,7 +143,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [5]
         },
         {
             "id": "sasd23233sf3wefdsf",
@@ -143,7 +155,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [6]
         },
         {
             "id": "sasd232gre33sfdsf",
@@ -154,7 +167,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [7, 1]
         },
         {
             "id": "sasd23233g34sfdsf",
@@ -165,7 +179,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [1, 2]
         },
         {
             "id": "sasd232hgm33sfdsf",
@@ -176,7 +191,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         },
         {
             "id": "sasd23ngf233sfdsf",
@@ -187,7 +203,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [3]
         },
         {
             "id": "sasd2323sd3sfdsf",
@@ -198,7 +215,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [4]
         },
         {
             "id": "sasd2323mmfg3sfdsf",
@@ -209,7 +227,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [5]
         },
         {
             "id": "sasd2323scsd3sfdsf",
@@ -220,7 +239,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [6]
         },
         {
             "id": "sasd23rt233sfdsf",
@@ -231,7 +251,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [7]
         },
         {
             "id": "sasd234tr233sfdsf",
@@ -242,7 +263,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [1]
         },
         {
             "id": "sasd232svv33sfdsf",
@@ -253,7 +275,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         },
         {
             "id": "sasd232sdf33sfdsf",
@@ -264,7 +287,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [3]
         },
         {
             "id": "sasd23233sfnsdsf",
@@ -275,7 +299,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [4]
         },
         {
             "id": "sasd23g233sdfdsf",
@@ -286,7 +311,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [5]
         },
         {
             "id": "sasd2d3233sfdnsf",
@@ -297,7 +323,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [6]
         },
         {
             "id": "sa3sd23233sfdshf",
@@ -308,7 +335,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [7]
         },
         {
             "id": "sa3sd23233sf5dsf",
@@ -319,7 +347,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [1]
         },
         {
             "id": "sas2d23233sf6dsf",
@@ -330,7 +359,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         },
         {
             "id": "sa3sd23233sfdsf",
@@ -341,7 +371,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [3]
         },
         {
             "id": "sasd23233s5fdsf",
@@ -352,7 +383,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [4, 6]
         },
         {
             "id": "sasd23233s5fdsf",
@@ -363,7 +395,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [5]
         },
         {
             "id": "sasd233233sfdsf",
@@ -374,7 +407,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [6]
         },
         {
             "id": "sasd23233s34fdsf",
@@ -385,7 +419,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [7]
         },
         {
             "id": "sasd235233sf42dsf",
@@ -396,7 +431,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [1]
         },
         {
             "id": "sawersd23233sfdsf",
@@ -407,7 +443,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         },
         {
             "id": "saddsd23233sfdsf",
@@ -418,7 +455,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [3]
         },
         {
             "id": "sagsdsd23233sfdsf",
@@ -429,7 +467,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [4]
         },
         {
             "id": "sa9090d23233sfdsf",
@@ -440,7 +479,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [5]
         },
         {
             "id": "90sd23233sfdsf",
@@ -451,7 +491,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [6]
         },
         {
             "id": "90sd23233sfdsf",
@@ -462,7 +503,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [7]
         },
         {
             "id": "000sd23233sfdsf",
@@ -473,7 +515,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [7]
         },
         {
             "id": "888sd23233sfdsf",
@@ -484,7 +527,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [6]
         },
         {
             "id": "sa90d23233sfdsf",
@@ -495,7 +539,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [5]
         },
         {
             "id": "s0909d23233sfdsf",
@@ -506,7 +551,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [4]
         },
         {
             "id": "s0909d23233sfdsf",
@@ -517,7 +563,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [3]
         },
         {
             "id": "sasd23233sfdsf",
@@ -528,7 +575,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         },
         {
             "id": "sasd23233sfdsf",
@@ -539,7 +587,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [1]
         },
         {
             "id": "sasd23233sfdsf",
@@ -550,7 +599,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [1]
         },
         {
             "id": "sasd23233sfdsf",
@@ -561,7 +611,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         },
         {
             "id": "sasd23233sfdsf",
@@ -572,7 +623,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [3]
         },
         {
             "id": "sasd23233sfdsf",
@@ -583,7 +635,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [4]
         },
         {
             "id": "sasd23233sfdsf",
@@ -594,7 +647,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [5]
         },
         {
             "id": "sasd23233sfdsf",
@@ -605,7 +659,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [6]
         },
         {
             "id": "sasd23233sfdsf",
@@ -616,7 +671,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [7]
         },
         {
             "id": "sasd23233sfdsf",
@@ -627,7 +683,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [1]
         },
         {
             "id": "sasd23233sfdsf",
@@ -638,7 +695,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         },
         {
             "id": "sasd23233sfdsf",
@@ -649,7 +707,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [3]
         },
         {
             "id": "sasd23233sfdsf",
@@ -660,7 +719,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [4]
         },
         {
             "id": "sasd23233sfdsf",
@@ -671,7 +731,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [5]
         },
         {
             "id": "sasd23233sfdsf",
@@ -682,7 +743,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [6]
         },
         {
             "id": "sasd23233sfdsf",
@@ -693,7 +755,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [7]
         },
         {
             "id": "sasd23233sfdsf",
@@ -704,7 +767,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [7]
         },
         {
             "id": "sasd23233sfdsf",
@@ -715,7 +779,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [6]
         },
         {
             "id": "sasd23233sfdsf",
@@ -726,7 +791,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [5]
         },
         {
             "id": "sasd23233sfdsf",
@@ -737,7 +803,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [4]
         },
         {
             "id": "sasd23233sfdsf",
@@ -748,7 +815,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [3]
         },
         {
             "id": "sasd23233sfdsf",
@@ -759,7 +827,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         },
         {
             "id": "sasd23233sfdsf",
@@ -770,7 +839,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [1]
         },
         {
             "id": "sasd23233sfdsf",
@@ -781,7 +851,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         },
         {
             "id": "sasd23233sfdsf",
@@ -792,7 +863,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         },
         {
             "id": "sasd23233sfdsf",
@@ -803,7 +875,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [4]
         },
         {
             "id": "sasd23233sfdsf",
@@ -814,7 +887,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [5]
         },
         {
             "id": "sasd23233sfdsf",
@@ -825,7 +899,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [6]
         },
         {
             "id": "sasd23233sfdsf",
@@ -836,7 +911,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         },
         {
             "id": "sasd23233sfdsf",
@@ -847,7 +923,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [1]
         },
         {
             "id": "sasd23233sfdsf",
@@ -858,7 +935,8 @@
             "tagLabel": "$40 More Value",
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
-            "updatedDate": 42134124234
+            "updatedDate": 42134124234,
+            "catIds": [2]
         }
     ]
 }

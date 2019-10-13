@@ -7,9 +7,9 @@
     <div class="dropdown selectbox__dropdown">
       <div class="dropdown__inner">
         <div v-for="item in data" :key="item.id" class="dropdown__item">
-          <div class="dropdown__button" @click="onSelect(item)">
+          <div :class="`dropdown__button${item.id === selectedValue.id ? ' selected' : ''}`" @click="onSelect(item)">
             <slot></slot>
-            <span class="dropdown__label">{{item.name}}</span>
+            <span class="dropdown__label">{{item.label}}</span>
           </div>
         </div>
       </div>
@@ -28,25 +28,27 @@ export default class Selectbox extends Vue {
   private defaultSelectedIndex?: number;
   @Prop({ default: '' })
   private label?: string;
-  @Prop({ default: true })
-  private closeOnSelect?: boolean;
+  @Prop({ default: false })
+  private openOnSelect?: boolean;
   private selectedValue: any;
-  private caret: string;
   private isVisible: boolean;
+  private caret: string;
 
   constructor() {
     super();
-    this.caret = this.label || '';
+    this.selectedValue = this.defaultSelectedIndex && this.data && this.data[this.defaultSelectedIndex];
     this.isVisible = false;
+    const label  = this.selectedValue && this.selectedValue.label;
+    this.caret = label || this.label || '';
   }
   get selectboxClass(): any[] {
     return ['selectbox', this.isVisible && 'opened'];
   }
   private onSelect(val: any): void {
-    this.isVisible = this.closeOnSelect ? false : false;
-    const { label } = val;
-    this.caret = label;
+    this.isVisible = this.openOnSelect || false;
     this.selectedValue = val;
+    const label  = this.selectedValue && this.selectedValue.label;
+    this.caret = label;
   }
   private created(): void {
     window.addEventListener('click', (e: any) => {
@@ -58,10 +60,9 @@ export default class Selectbox extends Vue {
   @Watch('data')
   private watchLabel(val: string, oldval: string): void {
     if (val) {
-      this.caret = (this.defaultSelectedIndex &&
-      this.data &&
-      this.data[this.defaultSelectedIndex] &&
-      this.data[this.defaultSelectedIndex].label);
+      this.selectedValue = this.defaultSelectedIndex && val && val[this.defaultSelectedIndex];
+      const label  = this.selectedValue && this.selectedValue.label;
+      this.caret = label;
     }
   }
 }
