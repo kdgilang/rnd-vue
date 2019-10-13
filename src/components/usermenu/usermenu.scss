@@ -1,11 +1,12 @@
 @import "../../scss/variable";
+@import "../../scss/mixin";
 .user-menu {
     margin: 0;
     padding: 0;
     &__item {
         list-style: none;
         display: inline-block;
-        margin-right: 53px;
+
         &:last-child {
             margin-right: 0;
         }

@@ -33,16 +33,10 @@
 
 /* Media */
 [class*="visible-"] {
-    display: none;
+    display: none !important;
 }
 [class*="hidden-"] {
-    display: block;
-}
-.visible-xs {
     display: block !important;
-}
-.hidden-xs {
-    display: none !important;
 }
 @include loopColoumn(xs);
 

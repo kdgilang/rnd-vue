@@ -1,5 +1,8 @@
 .logo {
     img {
-        width: 150px;
+        width: 130px;
+        @include media-up(lg) {
+            width: 150px;
+        }
     }
 }

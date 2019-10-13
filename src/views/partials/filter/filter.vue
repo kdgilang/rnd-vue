@@ -2,13 +2,13 @@
     <div class="filter">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-lg-6">
+                <div class="col-xs-12 col-md-5 col-lg-6">
                     <div class="filter__left">
                         <Selectbox label="Area" />
                         <Selectbox label="Budget" />
                     </div>
                 </div>
-                <div class="col-xs-12 col-lg-6">
+                <div class="col-xs-12 col-md-7 col-lg-6">
                     <div class="filter__right">
                         <div class="filter-sort">
                             <span class="label">Sort By</span>

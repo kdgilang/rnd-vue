@@ -1,10 +1,19 @@
 @import "../../../scss/variable";
+@import "../../../scss/mixin";
 .category {
     background-color: $white;
     z-index: 200;
+    &__content {
+        overflow-x: auto;
+        white-space: nowrap;
+        @include media-up(lg) {
+            overflow-x: initial;
+            // overflow-y: auto;
+        }
+    }
     &__list {
         cursor: pointer;
-        float: left;
+        display: inline-block;
         padding-bottom: 14px;
         padding-top: 14px;
         position: relative;
@@ -47,9 +56,11 @@
         width: 10px;
     }
     &__label {
-        font-size: 1rem;
         font-weight: 300;
         padding-left: 20px;
         padding-right: 20px;
+        @include media-up(lg) {
+            font-size: 1rem;
+        }
     }
 }

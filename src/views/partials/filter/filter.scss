@@ -1,4 +1,5 @@
 @import "../../../scss/variable";
+@import "../../../scss/mixin";
 .filter {
     padding-bottom: 0.5rem;
     padding-top: 2rem;
@@ -11,8 +12,11 @@
         .selectbox {
             float: left;
             margin-right: $global-space;
-            max-width: 168px;
+            max-width: 125px;
             width: 100%;
+            @include media-up(lg) {
+                max-width: 168px;
+            }
             &:last-child {
                 margin-right: 0;
             }
@@ -24,9 +28,13 @@
             float: left;
             margin-right: $global-space;
             .label {
+                display: none;
                 float: left;
                 line-height: 40px;
                 margin-right: $global-space;
+                @include media-up(lg) {
+                    display: inline-block;
+                }
             }
             .selectbox {
                 float: left;

@@ -1,5 +1,8 @@
 .page {
-    padding-top: 68px;
+    padding-top: 51px;
+    @include media-up(md) {
+        padding-top: 68px; 
+    }
     @include media-up(lg) {
         min-height: 400px;
     }

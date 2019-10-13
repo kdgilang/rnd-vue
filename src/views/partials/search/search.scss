@@ -1,8 +1,13 @@
 @import "../../../scss/variable";
+@import "../../../scss/mixin";
 
 .search {
     background-color: $green1;
-    padding: 24px 20px;
+    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
+    @include media-up(md) {
+        padding: 24px 20px;
+    }
 
     &__form {
         height: 40px;
@@ -23,14 +28,62 @@
             }
             &:first-child {
                 .styled-input__field {
-                    width: 336px;
+                    width: 305px;
+                    @include media-up(lg) {
+                        width: 336px;
+                    }
                 }
             }
             &:nth-child(2) {
                 .styled-input__field {
                     padding-left: 35px;
-                    width: 234px;
+                    width: 190px;
+                    @include media-up(lg) {
+                        width: 234px;
+                    }
                 }
+            }
+        }
+    }
+    &__mobile {
+        &__left {
+            float: left;
+        }
+        &__right {
+            float: right;
+            text-align: right
+        }
+        .button {
+            .label {
+                font-weight: 300;
+                margin-left: 1rem;
+            }
+            img {
+                height: 24px;
+                vertical-align: middle;
+                width: 24px;
+            }
+            &_map {
+                margin-left: 1.2rem;
+            }
+        }
+    }
+    .m-menu {
+        .form {
+            height: auto;
+            margin-top: 1.2rem;
+            .styled-input {
+                height: 48px;
+                float: none;
+                margin-bottom: 1rem;
+                margin-right: 0;
+                &__field {
+                    width: 100%;
+                }
+            }
+            .button {
+                background-color: $black1-hover2;
+                width: 100%;
             }
         }
     }

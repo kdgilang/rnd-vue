@@ -8,7 +8,13 @@ html {
   }
 }
 a {
+  outline: 0;
   transition: all 0.2s ease-in-out;
+  &:active,
+  &:link,
+  &:visited {
+    outline: 0;
+  }
 }
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */

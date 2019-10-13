@@ -42,14 +42,6 @@ export default class Selectbox extends Vue {
   get selectboxClass(): any[] {
     return ['selectbox', this.isVisible && 'opened'];
   }
-  get defaultSelectedLabel(): string {
-    return (
-      this.defaultSelectedIndex &&
-      this.data &&
-      this.data[this.defaultSelectedIndex] &&
-      this.data[this.defaultSelectedIndex].label
-    );
-  }
   private onSelect(val: any): void {
     this.isVisible = this.closeOnSelect ? false : false;
     const { label } = val;
@@ -63,10 +55,13 @@ export default class Selectbox extends Vue {
       }
     });
   }
-  @Watch('defaultSelectedLabel')
+  @Watch('data')
   private watchLabel(val: string, oldval: string): void {
     if (val) {
-      this.caret = val;
+      this.caret = (this.defaultSelectedIndex &&
+      this.data &&
+      this.data[this.defaultSelectedIndex] &&
+      this.data[this.defaultSelectedIndex].label);
     }
   }
 }

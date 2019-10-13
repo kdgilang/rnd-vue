@@ -1,5 +1,5 @@
 <template>
-    <nav :class="classname" v-if="navdata">
+    <nav class="nav" v-if="navdata">
         <router-link v-for="item in navdata" :key="item.slug" :to="item.url" class="nav__item">{{item.title}}</router-link>
     </nav>
 </template>
@@ -10,8 +10,6 @@ import { getNavigations } from '@/services/navigation';
 
 @Component({})
 export default class Navigation extends Vue {
-  @Prop({default: 'nav'})
-  private classname?: string;
   private navdata: any[];
 
   constructor() {

@@ -1,14 +1,32 @@
 @import "../../../scss/variable";
+@import "../../../scss/mixin";
 .header {
     background-color: $white;
-    padding-bottom: $global-space;
-    padding-top: $global-space;
+    padding-bottom: 10px;
+    padding-top: 10px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 9999;
+    @include media-up(md) {
+        padding-bottom: $global-space;
+        padding-top: $global-space;
+    }
     &__left {
-        height: 36px;
+        height: 31px;
+        @include media-up(md) {
+            height: 36px;
+        }
+        .button {
+            height: 100%;
+            margin-right: 20px;
+            padding: 0;
+            vertical-align: middle;
+            width: 24px;
+            img {
+                width: 100%;
+            }
+        }
     }
     &__right {
         height: 36px;
@@ -18,19 +36,71 @@
        display: inline-block;
     }
     &__nav {
+        display: none;
         height: 100%;
-        margin-left: 56px;
-        vertical-align: middle;
+        @include media-up(lg) {
+            display: inline-block;
+            margin-left: 1.4rem;
+            vertical-align: middle;
+        }
+        @include media-up(xl) {
+            margin-left: 56px;
+        }
+        .nav__item {
+            margin-right: 0;
+            @include media-up(md) {
+                margin-right: 1.4rem;
+            }
+            @include media-up(xl) {
+                margin-right: 3rem;
+            }
+        }
+    }
+    &__search__mobile {
+        float: right;
     }
     .user-menu {
-        display: inline-block;
+        float: right;
         height: 100%;
         vertical-align: middle;
+        @include media-up(md) {
+            display: inline-block;
+            float: none;
+        }
+        &__item {
+            @include media-up(md) {
+                margin-right: 1.4rem;
+            }
+            @include media-up(lg) {
+                margin-right: 1rem;
+            }
+            @include media-up(xl) {
+                margin-right: 2rem;
+            }
+            &:last-child {
+                display: none;
+                @include media-up(md) {
+                    display: inline-block;
+                }
+            }
+            a {
+                line-height: 31px;
+                @include media-up(md) {
+                    line-height: 1.2rem;
+                }
+            }
+        }
     }
     .styled-input {
         display: inline-block;
         height: 32px;
-        margin-right: 40px;
+        vertical-align: middle;
+        @include media-up(md) {
+            margin-right: 1.4rem;
+        }
+        @include media-up(xl) {
+            margin-right: 2rem;
+        }
         &__field {
             background-color: $grey1;
             padding-left: 35px;
@@ -41,6 +111,29 @@
         }
         &__icon {
             left: 8px;
+        }
+    }
+    .m-menu {
+        float: left;
+        .nav {
+            margin-top: 1.5rem;
+            &__item {
+                border-bottom: 1px solid $grey4;
+                color: $black1;
+                display: block;
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+                margin-right: 0;
+                padding-bottom: 0.6rem;
+                padding-top: 0.6rem;
+                text-decoration: none;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                &:hover {
+                    color: $black1-hover;
+                }
+            }
         }
     }
 }

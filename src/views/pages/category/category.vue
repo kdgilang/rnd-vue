@@ -2,7 +2,7 @@
   <div class="page page-category">
     <SearchBlock />
     <Category />
-    <FilterBlock />
+    <FilterBlock class="visible-md"/>
     <div class="page-category__content">
       <div class="container" v-if="dataPosts">
         <div class="row">
