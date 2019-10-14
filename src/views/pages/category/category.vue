@@ -19,7 +19,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import { mapGetters } from 'vuex';
-import { SET_ROOTPOSTS, SET_POSTS } from '@/store/types';
+import { INIT_POSTS } from '@/store/types';
 import PostModel from '@/models/post';
 import PostListModel from '@/models/post';
 import SearchBlock from '@/views/partials/search/search.vue';
@@ -41,15 +41,14 @@ import FilterBlock from '@/views/partials/filter/filter.vue';
   },
 })
 export default class CategoryPage extends Vue {
-  private posts: PostModel;
+  private posts?: PostModel;
 
   constructor() {
     super();
-    this.posts = new PostModel();
   }
 
   get dataPosts(): PostListModel[] {
-    return (this.posts && this.posts.list) || '';
+    return (this.posts && this.posts.list) || [];
   }
 
   get perPage(): number {
@@ -58,8 +57,7 @@ export default class CategoryPage extends Vue {
 
   private mounted() {
     document.title = this.$route.meta.title;
-    this.$store.dispatch(SET_POSTS);
-    this.$store.dispatch(SET_ROOTPOSTS);
+    this.$store.dispatch(INIT_POSTS);
   }
 }
 </script>

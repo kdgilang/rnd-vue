@@ -49,14 +49,12 @@ import _ from 'lodash';
 })
 export default class Category extends Vue {
   private categories: any;
-  private rootPosts: PostModel[];
-  private posts: PostModel[];
+  private rootPosts?: PostModel;
+  private posts?: PostModel;
 
   constructor() {
     super();
     this.categories = [];
-    this.rootPosts = [];
-    this.posts = [];
   }
   get showedCatList(): any[] {
     return this.catList.filter((val: any, i: number) => (i < 6 && val) );
@@ -74,6 +72,7 @@ export default class Category extends Vue {
   }
   private onCatSelect(val: number): void {
     const root = _.cloneDeep(this.rootPosts);
+    const list = root && root.list;
     if (val !== 1) {
       const arr = root.list.filter((item) => (item.catIds.indexOf(val) > -1));
       const posts = _.cloneDeep(this.posts);

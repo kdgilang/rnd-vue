@@ -27,9 +27,9 @@ import PostlistModel from '@/models/postlist';
 import CardLoader from './cardloader.vue';
 
 @Component({
-    components: {
-        CardLoader,
-    },
+  components: {
+    CardLoader,
+  },
 })
 export default class Card extends Vue {
   @Prop({ default: {} })
@@ -37,8 +37,8 @@ export default class Card extends Vue {
   private showLoader: boolean;
 
   constructor() {
-      super();
-      this.showLoader = true;
+    super();
+    this.showLoader = true;
   }
 
   get title(): string {
