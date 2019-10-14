@@ -5,6 +5,7 @@ export default class PostListModel {
     public locationLabel: string;
     public companyName: string;
     public imgsrc: string;
+    public map: MapModel;
     public catIds: number[];
 
     constructor() {
@@ -14,6 +15,12 @@ export default class PostListModel {
         this.locationLabel = '';
         this.companyName = '';
         this.imgsrc = '';
+        this.map = {lat: 0, lng: 0};
         this.catIds = [];
     }
+}
+
+export interface MapModel {
+    lat: number;
+    lng: number;
 }

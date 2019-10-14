@@ -12,7 +12,14 @@
             "imgsrc": "https://raw.githubusercontent.com/kdgilang/thebalibible/master/img/post/all-food-1.jpg",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [1, 3]
+            "map": {
+                "lat": -8.671272,
+                "lng": 115.201208
+            },
+            "catIds": [
+                1,
+                3
+            ]
         },
         {
             "id": "sasd2312233sfdsf",
@@ -24,7 +31,14 @@
             "imgsrc": "https://raw.githubusercontent.com/kdgilang/thebalibible/master/img/post/all-food-2.jpg",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2, 6]
+            "map": {
+                "lat": -8.498845,
+                "lng": 115.089637
+            },
+            "catIds": [
+                2,
+                6
+            ]
         },
         {
             "id": "sas2d23233sfdsf",
@@ -36,7 +50,15 @@
             "imgsrc": "https://raw.githubusercontent.com/kdgilang/thebalibible/master/img/post/all-food-3.jpg",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [3, 5, 7]
+            "map": {
+                "lat": 1.837236,
+                "lng": 68.439632
+            },
+            "catIds": [
+                3,
+                5,
+                7
+            ]
         },
         {
             "id": "sasd237233sfdsf",
@@ -48,7 +70,13 @@
             "imgsrc": "https://raw.githubusercontent.com/kdgilang/thebalibible/master/img/post/all-food-4.jpg",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [4]
+            "map": {
+                "lat": -2.224045,
+                "lng": 97.124058
+            },
+            "catIds": [
+                4
+            ]
         },
         {
             "id": "sasd232338sfdsf",
@@ -60,7 +88,13 @@
             "imgsrc": "https://raw.githubusercontent.com/kdgilang/thebalibible/master/img/post/all-food-5.jpg",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [5]
+            "map": {
+                "lat": -3.535888,
+                "lng": 99.552265
+            },
+            "catIds": [
+                5
+            ]
         },
         {
             "id": "sasd2323336sfdsf",
@@ -72,7 +106,13 @@
             "imgsrc": "https://raw.githubusercontent.com/kdgilang/thebalibible/master/img/post/all-food-6.jpg",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [6]
+            "map": {
+                "lat": -2.070889,
+                "lng": 21.194492
+            },
+            "catIds": [
+                6
+            ]
         },
         {
             "id": "sasd2396233sfdsf",
@@ -84,7 +124,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [7]
+            "map": {
+                "lat": 0.919992,
+                "lng": 100.573864
+            },
+            "catIds": [
+                7
+            ]
         },
         {
             "id": "sasd23258433sfdsf",
@@ -96,7 +142,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [1]
+            "map": {
+                "lat": -6.955863,
+                "lng": 88.966078
+            },
+            "catIds": [
+                1
+            ]
         },
         {
             "id": "sasd23234633sfdsf",
@@ -108,7 +160,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": -3.225022,
+                "lng": 112.786587
+            },
+            "catIds": [
+                2
+            ]
         },
         {
             "id": "sasd23233s25fdsf",
@@ -120,7 +178,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [3]
+            "map": {
+                "lat": 2.670698,
+                "lng": 94.698606
+            },
+            "catIds": [
+                3
+            ]
         },
         {
             "id": "sasd23233sfg3dsf",
@@ -132,7 +196,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [4]
+            "map": {
+                "lat": -3.201845,
+                "lng": 105.237673
+            },
+            "catIds": [
+                4
+            ]
         },
         {
             "id": "sasd23233sff43fdsf",
@@ -144,7 +214,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [5]
+            "map": {
+                "lat": -6.377618,
+                "lng": 52.968122
+            },
+            "catIds": [
+                5
+            ]
         },
         {
             "id": "sasd23233sf3wefdsf",
@@ -156,7 +232,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [6]
+            "map": {
+                "lat": 2.385522,
+                "lng": 17.676866
+            },
+            "catIds": [
+                6
+            ]
         },
         {
             "id": "sasd232gre33sfdsf",
@@ -168,7 +250,14 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [7, 1]
+            "map": {
+                "lat": 2.995197,
+                "lng": 40.135071
+            },
+            "catIds": [
+                7,
+                1
+            ]
         },
         {
             "id": "sasd23233g34sfdsf",
@@ -180,7 +269,14 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [1, 2]
+            "map": {
+                "lat": -5.639147,
+                "lng": 105.067978
+            },
+            "catIds": [
+                1,
+                2
+            ]
         },
         {
             "id": "sasd232hgm33sfdsf",
@@ -192,7 +288,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": 4.192917,
+                "lng": 59.60055
+            },
+            "catIds": [
+                2
+            ]
         },
         {
             "id": "sasd23ngf233sfdsf",
@@ -204,7 +306,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [3]
+            "map": {
+                "lat": 1.007248,
+                "lng": 15.122296
+            },
+            "catIds": [
+                3
+            ]
         },
         {
             "id": "sasd2323sd3sfdsf",
@@ -216,7 +324,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [4]
+            "map": {
+                "lat": 0.112861,
+                "lng": 49.355681
+            },
+            "catIds": [
+                4
+            ]
         },
         {
             "id": "sasd2323mmfg3sfdsf",
@@ -228,7 +342,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [5]
+            "map": {
+                "lat": 3.145705,
+                "lng": 61.383729
+            },
+            "catIds": [
+                5
+            ]
         },
         {
             "id": "sasd2323scsd3sfdsf",
@@ -240,7 +360,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [6]
+            "map": {
+                "lat": -1.769048,
+                "lng": 42.188225
+            },
+            "catIds": [
+                6
+            ]
         },
         {
             "id": "sasd23rt233sfdsf",
@@ -252,7 +378,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [7]
+            "map": {
+                "lat": -1.311426,
+                "lng": 53.683044
+            },
+            "catIds": [
+                7
+            ]
         },
         {
             "id": "sasd234tr233sfdsf",
@@ -264,7 +396,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [1]
+            "map": {
+                "lat": 0.565061,
+                "lng": 39.895739
+            },
+            "catIds": [
+                1
+            ]
         },
         {
             "id": "sasd232svv33sfdsf",
@@ -276,7 +414,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": 3.730449,
+                "lng": 23.612756
+            },
+            "catIds": [
+                2
+            ]
         },
         {
             "id": "sasd232sdf33sfdsf",
@@ -288,7 +432,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [3]
+            "map": {
+                "lat": 3.183913,
+                "lng": 50.674355
+            },
+            "catIds": [
+                3
+            ]
         },
         {
             "id": "sasd23233sfnsdsf",
@@ -300,7 +450,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [4]
+            "map": {
+                "lat": 3.812027,
+                "lng": 96.603773
+            },
+            "catIds": [
+                4
+            ]
         },
         {
             "id": "sasd23g233sdfdsf",
@@ -312,7 +468,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [5]
+            "map": {
+                "lat": -7.861827,
+                "lng": 32.735987
+            },
+            "catIds": [
+                5
+            ]
         },
         {
             "id": "sasd2d3233sfdnsf",
@@ -324,7 +486,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [6]
+            "map": {
+                "lat": -8.499751,
+                "lng": 88.060655
+            },
+            "catIds": [
+                6
+            ]
         },
         {
             "id": "sa3sd23233sfdshf",
@@ -336,7 +504,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [7]
+            "map": {
+                "lat": -1.357188,
+                "lng": 59.412211
+            },
+            "catIds": [
+                7
+            ]
         },
         {
             "id": "sa3sd23233sf5dsf",
@@ -348,7 +522,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [1]
+            "map": {
+                "lat": -1.437124,
+                "lng": 91.385267
+            },
+            "catIds": [
+                1
+            ]
         },
         {
             "id": "sas2d23233sf6dsf",
@@ -360,7 +540,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": -0.694861,
+                "lng": 64.962458
+            },
+            "catIds": [
+                2
+            ]
         },
         {
             "id": "sa3sd23233sfdsf",
@@ -372,7 +558,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [3]
+            "map": {
+                "lat": 3.07693,
+                "lng": 85.420088
+            },
+            "catIds": [
+                3
+            ]
         },
         {
             "id": "sasd23233s5fdsf",
@@ -384,7 +576,14 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [4, 6]
+            "map": {
+                "lat": 4.762463,
+                "lng": 112.619842
+            },
+            "catIds": [
+                4,
+                6
+            ]
         },
         {
             "id": "sasd23233s5fdsf",
@@ -396,7 +595,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [5]
+            "map": {
+                "lat": -1.794219,
+                "lng": 55.566867
+            },
+            "catIds": [
+                5
+            ]
         },
         {
             "id": "sasd233233sfdsf",
@@ -408,7 +613,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [6]
+            "map": {
+                "lat": -0.140365,
+                "lng": 61.219486
+            },
+            "catIds": [
+                6
+            ]
         },
         {
             "id": "sasd23233s34fdsf",
@@ -420,7 +631,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [7]
+            "map": {
+                "lat": 2.990917,
+                "lng": 113.426105
+            },
+            "catIds": [
+                7
+            ]
         },
         {
             "id": "sasd235233sf42dsf",
@@ -432,7 +649,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [1]
+            "map": {
+                "lat": 1.549104,
+                "lng": 63.210687
+            },
+            "catIds": [
+                1
+            ]
         },
         {
             "id": "sawersd23233sfdsf",
@@ -444,7 +667,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": 1.464768,
+                "lng": 89.491786
+            },
+            "catIds": [
+                2
+            ]
         },
         {
             "id": "saddsd23233sfdsf",
@@ -456,7 +685,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [3]
+            "map": {
+                "lat": -6.836965,
+                "lng": 39.173002
+            },
+            "catIds": [
+                3
+            ]
         },
         {
             "id": "sagsdsd23233sfdsf",
@@ -468,7 +703,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [4]
+            "map": {
+                "lat": 4.871463,
+                "lng": 19.231067
+            },
+            "catIds": [
+                4
+            ]
         },
         {
             "id": "sa9090d23233sfdsf",
@@ -480,7 +721,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [5]
+            "map": {
+                "lat": 2.531041,
+                "lng": 85.675099
+            },
+            "catIds": [
+                5
+            ]
         },
         {
             "id": "90sd23233sfdsf",
@@ -492,7 +739,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [6]
+            "map": {
+                "lat": -2.15051,
+                "lng": 110.273383
+            },
+            "catIds": [
+                6
+            ]
         },
         {
             "id": "90sd23233sfdsf",
@@ -504,7 +757,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [7]
+            "map": {
+                "lat": 2.505186,
+                "lng": 97.876992
+            },
+            "catIds": [
+                7
+            ]
         },
         {
             "id": "000sd23233sfdsf",
@@ -516,7 +775,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [7]
+            "map": {
+                "lat": -7.384496,
+                "lng": 62.450492
+            },
+            "catIds": [
+                7
+            ]
         },
         {
             "id": "888sd23233sfdsf",
@@ -528,7 +793,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [6]
+            "map": {
+                "lat": 3.977306,
+                "lng": 98.830566
+            },
+            "catIds": [
+                6
+            ]
         },
         {
             "id": "sa90d23233sfdsf",
@@ -540,7 +811,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [5]
+            "map": {
+                "lat": -2.233855,
+                "lng": 66.307831
+            },
+            "catIds": [
+                5
+            ]
         },
         {
             "id": "s0909d23233sfdsf",
@@ -552,7 +829,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [4]
+            "map": {
+                "lat": -0.003421,
+                "lng": 59.261618
+            },
+            "catIds": [
+                4
+            ]
         },
         {
             "id": "s0909d23233sfdsf",
@@ -564,7 +847,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [3]
+            "map": {
+                "lat": -5.694434,
+                "lng": 87.650904
+            },
+            "catIds": [
+                3
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -576,7 +865,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": 4.285363,
+                "lng": 50.285683
+            },
+            "catIds": [
+                2
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -588,7 +883,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [1]
+            "map": {
+                "lat": -4.610894,
+                "lng": 36.976857
+            },
+            "catIds": [
+                1
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -600,7 +901,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [1]
+            "map": {
+                "lat": -7.564023,
+                "lng": 53.772626
+            },
+            "catIds": [
+                1
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -612,7 +919,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": -1.108861,
+                "lng": 111.02224
+            },
+            "catIds": [
+                2
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -624,7 +937,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [3]
+            "map": {
+                "lat": 4.123589,
+                "lng": 12.757326
+            },
+            "catIds": [
+                3
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -636,7 +955,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [4]
+            "map": {
+                "lat": 4.487676,
+                "lng": 69.596737
+            },
+            "catIds": [
+                4
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -648,7 +973,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [5]
+            "map": {
+                "lat": -5.838429,
+                "lng": 18.669048
+            },
+            "catIds": [
+                5
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -660,7 +991,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [6]
+            "map": {
+                "lat": -0.164512,
+                "lng": 37.194994
+            },
+            "catIds": [
+                6
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -672,7 +1009,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [7]
+            "map": {
+                "lat": 2.234207,
+                "lng": 78.631667
+            },
+            "catIds": [
+                7
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -684,7 +1027,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [1]
+            "map": {
+                "lat": 0.633221,
+                "lng": 79.770987
+            },
+            "catIds": [
+                1
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -696,7 +1045,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": -7.276397,
+                "lng": 99.58581
+            },
+            "catIds": [
+                2
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -708,7 +1063,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [3]
+            "map": {
+                "lat": -0.411397,
+                "lng": 47.502716
+            },
+            "catIds": [
+                3
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -720,7 +1081,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [4]
+            "map": {
+                "lat": 2.158327,
+                "lng": 91.51441
+            },
+            "catIds": [
+                4
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -732,7 +1099,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [5]
+            "map": {
+                "lat": -3.203382,
+                "lng": 72.999383
+            },
+            "catIds": [
+                5
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -744,7 +1117,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [6]
+            "map": {
+                "lat": -6.635619,
+                "lng": 31.898521
+            },
+            "catIds": [
+                6
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -756,7 +1135,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [7]
+            "map": {
+                "lat": -7.375794,
+                "lng": 48.556458
+            },
+            "catIds": [
+                7
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -768,7 +1153,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [7]
+            "map": {
+                "lat": -3.159319,
+                "lng": 37.893088
+            },
+            "catIds": [
+                7
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -780,7 +1171,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [6]
+            "map": {
+                "lat": -1.156231,
+                "lng": 57.340418
+            },
+            "catIds": [
+                6
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -792,7 +1189,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [5]
+            "map": {
+                "lat": -7.770729,
+                "lng": 72.120809
+            },
+            "catIds": [
+                5
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -804,7 +1207,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [4]
+            "map": {
+                "lat": 4.766488,
+                "lng": 76.88897
+            },
+            "catIds": [
+                4
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -816,7 +1225,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [3]
+            "map": {
+                "lat": -7.447848,
+                "lng": 55.702686
+            },
+            "catIds": [
+                3
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -828,7 +1243,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": -8.290662,
+                "lng": 55.947879
+            },
+            "catIds": [
+                2, 5
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -840,7 +1261,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [1]
+            "map": {
+                "lat": 0.850873,
+                "lng": 94.990719
+            },
+            "catIds": [
+                1, 3
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -852,7 +1279,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": -2.593247,
+                "lng": 43.529892
+            },
+            "catIds": [
+                2, 1
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -864,7 +1297,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": 2.683284,
+                "lng": 115.032191
+            },
+            "catIds": [
+                2, 4
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -876,7 +1315,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [4]
+            "map": {
+                "lat": -5.484577,
+                "lng": 14.245879
+            },
+            "catIds": [
+                4, 1
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -888,7 +1333,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [5]
+            "map": {
+                "lat": 1.267312,
+                "lng": 18.640895
+            },
+            "catIds": [
+                5, 2
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -900,7 +1351,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [6]
+            "map": {
+                "lat": 4.406717,
+                "lng": 104.114987
+            },
+            "catIds": [
+                6, 5
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -912,7 +1369,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": 3.999034,
+                "lng": 110.560339
+            },
+            "catIds": [
+                2, 6
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -924,7 +1387,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [1]
+            "map": {
+                "lat": 2.521895,
+                "lng": 94.98384
+            },
+            "catIds": [
+                1, 4
+            ]
         },
         {
             "id": "sasd23233sfdsf",
@@ -936,7 +1405,13 @@
             "imgsrc": "https://picsum.photos/seed/picsum/374/236",
             "publishedDate": 423424234244,
             "updatedDate": 42134124234,
-            "catIds": [2]
+            "map": {
+                "lat": -3.286735,
+                "lng": 77.177909
+            },
+            "catIds": [
+                2, 1
+            ]
         }
     ]
 }

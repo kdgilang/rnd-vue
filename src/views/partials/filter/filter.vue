@@ -17,7 +17,11 @@
                             </Selectbox>
                         </div>
                         <button class="button" @click="toggleMap(true)">See Map</button>
-                        <Gmap v-if="isMapVisible" :visible="isMapVisible" :classes="mapClass" @onClose="toggleMap(false)" />
+                        <Gmap v-if="isMapVisible" 
+                            :visible="isMapVisible" 
+                            :markers="markers" 
+                            :classes="mapClass" 
+                            @onClose="toggleMap(false)" />
                     </div>
                 </div>
             </div>
@@ -29,23 +33,37 @@
 import { Component, Vue } from 'vue-property-decorator';
 import Selectbox from '@/components/selectbox/selectbox.vue';
 import Gmap from '@/components/gmap/gmap.vue';
+import { mapGetters } from 'vuex';
+import PostListModel, {MapModel} from '@/models/postlist';
+import PostModel from '@/models/post';
 
 @Component({
     components: {
        Selectbox,
        Gmap,
     },
+    computed: {
+        ...mapGetters(['posts']),
+    },
 })
 export default class FilterBlock extends Vue {
     private isMapVisible: boolean;
     private mapClass: string[];
     private sortData: any[];
+    private posts?: PostModel;
 
     constructor() {
         super();
         this.isMapVisible = false;
         this.mapClass = [];
         this.sortData = [{id: 1111, label: 'Most Popular'}, {id: 1211, label: 'Latest Deals'}, {id: 1311, label: 'Lowest Price'}, {id: 1411, label: 'Highest Price'}];
+    }
+    get markers(): any[] {
+        const arr: MapModel[] = [];
+        if (this.posts && this.posts.list) {
+            this.posts.list.map((val: PostListModel) => (arr.push(val.map)));
+        }
+        return arr;
     }
     private toggleMap(val: boolean): void {
         if (!val) {
