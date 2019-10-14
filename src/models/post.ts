@@ -1,17 +1,11 @@
 export default class PostModel {
-    public title: string;
-    public priceLabel: string;
-    public tagLabel: string;
-    public locationLabel: string;
-    public companyName: string;
-    public imgsrc: string;
+    public token: string;
+    public postPerPage: number;
+    public list: any[];
 
     constructor() {
-        this.title = '';
-        this.priceLabel = '';
-        this.tagLabel = '';
-        this.locationLabel = '';
-        this.companyName = '';
-        this.imgsrc = '';
+        this.token = '';
+        this.postPerPage = 10;
+        this.list = [];
     }
 }

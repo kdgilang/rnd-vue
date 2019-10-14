@@ -2,7 +2,7 @@
   <div class="pagination" v-if="items">
     <div class="pagination__inner visible-lg" v-if="paging">
       <div class="pagination__label">{{label}}</div>
-      <div class="pagination__content">
+      <div class="pagination__content" v-if="isPaged">
         <span class="pagination__item pagination__item_left"></span>
         <span
           v-for="val in paging"
@@ -18,11 +18,11 @@
 
 <script lang="ts">
 import { Component, Vue, Prop } from 'vue-property-decorator';
-import PostModel from '@/models/post';
+import PostListModel from '@/models/postlist';
 @Component({})
 export default class Pagination extends Vue {
   @Prop({ default: () => [] })
-  private items!: PostModel[];
+  private items!: PostListModel[];
   @Prop({ default: 5 })
   private itemsPerPage!: number;
   private selectedIndexPage: number;
@@ -37,9 +37,12 @@ export default class Pagination extends Vue {
     const arr = itemslen / this.itemsPerPage;
     return Array.from({ length: arr }, (v, i) => i + 1);
   }
+  get isPaged(): boolean {
+    return this.items.length > this.itemsPerPage;
+  }
   get label(): string {
     const itemslen = this.items.length;
-    const perpage = this.itemsPerPage;
+    const perpage = this.isPaged ? this.itemsPerPage : itemslen;
     return `Viewing 1-${perpage} of ${itemslen} results`;
   }
 }

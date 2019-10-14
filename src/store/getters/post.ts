@@ -7,4 +7,8 @@ export const postgetters: GetterTree<StateModel, StateModel> = {
         const { posts } = state;
         return posts;
     },
+    rootPosts(state): PostModel[] {
+        const { rootPosts } = state;
+        return rootPosts;
+    },
 };

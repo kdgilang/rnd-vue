@@ -23,7 +23,7 @@
 
 <script lang="ts">
 import { Component, Vue, Prop } from 'vue-property-decorator';
-import PostModel from '@/models/post';
+import PostlistModel from '@/models/postlist';
 import CardLoader from './cardloader.vue';
 
 @Component({
@@ -33,7 +33,7 @@ import CardLoader from './cardloader.vue';
 })
 export default class Card extends Vue {
   @Prop({ default: {} })
-  private data?: PostModel;
+  private data?: PostlistModel;
   private showLoader: boolean;
 
   constructor() {
