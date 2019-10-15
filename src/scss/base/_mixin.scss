@@ -7,6 +7,11 @@
 }
 
 @mixin media-up($point) {
+    @if $point == xs {
+        @media (min-width: $media-xs) { 
+            @content;
+        }
+    }
     @if $point == sm {
         @media (min-width: $media-sm) { 
             @content;

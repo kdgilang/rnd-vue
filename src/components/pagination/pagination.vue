@@ -1,6 +1,6 @@
 <template>
-  <div class="pagination" v-if="items">
-    <div class="pagination__inner visible-lg" v-if="paging">
+  <div class="pagination" v-if="items.length">
+    <div class="pagination__inner visible-lg">
       <div class="pagination__label">{{label}}</div>
       <div class="pagination__content" v-if="isPaged">
         <span @click="onPagination('prev')" class="pagination__item pagination__item_left"></span>
@@ -18,7 +18,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop, Emit } from 'vue-property-decorator';
+import { Component, Vue, Prop, Emit, Watch } from 'vue-property-decorator';
 import PostListModel from '@/models/postlist';
 @Component({})
 export default class Pagination extends Vue {

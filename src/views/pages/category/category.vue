@@ -10,7 +10,10 @@
             <Card :data="item" />
           </div>
         </div>
-        <Pagination :items="dataPosts" :itemsPerPage="perPage" @onPagination="onPagination" />
+        <Pagination 
+          :items="dataPosts" 
+          :itemsPerPage="perPage"
+          @onPagination="onPagination" />
       </div>
     </div>
   </div>
@@ -41,20 +44,20 @@ import FilterBlock from '@/views/partials/filter/filter.vue';
   },
 })
 export default class CategoryPage extends Vue {
-  private posts?: PostModel;
+  private posts!: PostModel;
   private pagedPosts: PostListModel[];
 
   constructor() {
     super();
-    this.pagedPosts = Array<PostListModel>();
+    this.pagedPosts = new Array<PostListModel>();
   }
 
   get dataPosts(): PostListModel[] {
-    return (this.posts && this.posts.list) || [];
+    return this.posts.list;
   }
 
   get perPage(): number {
-    return (this.posts && this.posts.postPerPage) || 0;
+    return this.posts.postPerPage;
   }
 
   get thePagedPosts(): PostListModel[] {

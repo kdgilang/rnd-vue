@@ -4,18 +4,17 @@
       <div class="row">
         <div class="col-xs-12 col-md-4 col-lg-7">
           <div class="header__left">
-            <MobileMenu title="Menu" icon="menu@2x.png">
+            <MobileMenu class="header__menu__mobile" title="Menu" icon="menu@2x.png">
               <Navigation></Navigation>
             </MobileMenu>
             <router-link class="logo header__logo" :to="{name: 'front-page'}">
               <img src="../../../assets/images/logo@2x.png" alt="TBB Logo" />
             </router-link>
             <Navigation class="header__nav"></Navigation>
-            
             <UserMenu class="hidden-md"></UserMenu>
-            <button class="button header__search__mobile hidden-md">
-              <img src="../../../assets/images/icons/magny1@2x.png" alt="icon search">
-            </button>
+            <MobileMenu class="header__search__mobile hidden-md" title="Search" icon="magny1@2x.png">
+              <StyledInput :value="inputValue" icon="magny1@2x.png" type="text" placeholder="Search"></StyledInput>
+            </MobileMenu>
           </div>
         </div>
         <div class="col-xs-12 col-md-8 col-lg-5 visible-md">

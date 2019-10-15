@@ -33,7 +33,7 @@ import CardLoader from './cardloader.vue';
 })
 export default class Card extends Vue {
   @Prop({ default: {} })
-  private data?: PostlistModel;
+  private data!: PostlistModel;
   private showLoader: boolean;
 
   constructor() {
@@ -42,22 +42,22 @@ export default class Card extends Vue {
   }
 
   get title(): string {
-    return (this.data && this.data.title) || '';
+    return this.data.title;
   }
   get priceLabel(): string {
-    return (this.data && this.data.priceLabel) || '';
+    return this.data.priceLabel;
   }
   get tagLabel(): string {
-    return (this.data && this.data.tagLabel) || '';
+    return this.data.tagLabel;
   }
   get locationLabel(): string {
-    return (this.data && this.data.locationLabel) || '';
+    return this.data.locationLabel;
   }
   get companyName(): string {
-    return (this.data && this.data.companyName) || '';
+    return this.data.companyName;
   }
   get imgsrc(): string {
-    return (this.data && this.data.imgsrc) || '';
+    return this.data.imgsrc;
   }
   private imageLoaded(): void {
     setTimeout(() => {

@@ -14,18 +14,16 @@
     }
     &__left {
         height: 31px;
-        @include media-up(md) {
-            height: 36px;
-        }
         .button {
             height: 100%;
-            margin-right: 20px;
-            padding: 0;
             vertical-align: middle;
             width: 24px;
             img {
                 width: 100%;
             }
+        }
+        @include media-up(md) {
+            height: 36px;
         }
     }
     &__right {
@@ -56,8 +54,69 @@
             }
         }
     }
+    .styled-input {
+        display: inline-block;
+        height: 32px;
+        vertical-align: middle;
+        @include media-up(md) {
+            margin-right: 1.4rem;
+        }
+        @include media-up(xl) {
+            margin-right: 2rem;
+        }
+        &__field {
+            background-color: $grey1;
+            padding-left: 35px;
+            width: 200px;
+            &:focus {
+                background-color: $white;
+            }
+        }
+        &__icon {
+            left: 8px;
+        }
+    }
     &__search__mobile {
         float: right;
+        margin-right: 1.4rem;
+        img {
+            width: 100%;
+        }
+        .styled-input {
+            height: 40px;
+            margin-top: 1rem;
+            width: 100%;
+            &__field {
+                width: 100%;
+            }
+        }
+    }
+    &__menu__mobile {
+        float: left;
+        margin-right: 1.2rem;
+        img {
+            width: 100%;
+        }
+        .nav {
+            margin-top: 1.5rem;
+            &__item {
+                border-bottom: 1px solid $grey4;
+                color: $black1;
+                display: block;
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+                margin-right: 0;
+                padding-bottom: 0.6rem;
+                padding-top: 0.6rem;
+                text-decoration: none;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                &:hover {
+                    color: $black1-hover;
+                }
+            }
+        }
     }
     .user-menu {
         float: right;
@@ -87,51 +146,6 @@
                 line-height: 31px;
                 @include media-up(md) {
                     line-height: 1.2rem;
-                }
-            }
-        }
-    }
-    .styled-input {
-        display: inline-block;
-        height: 32px;
-        vertical-align: middle;
-        @include media-up(md) {
-            margin-right: 1.4rem;
-        }
-        @include media-up(xl) {
-            margin-right: 2rem;
-        }
-        &__field {
-            background-color: $grey1;
-            padding-left: 35px;
-            width: 200px;
-            &:focus {
-                background-color: $white;
-            }
-        }
-        &__icon {
-            left: 8px;
-        }
-    }
-    .m-menu {
-        float: left;
-        .nav {
-            margin-top: 1.5rem;
-            &__item {
-                border-bottom: 1px solid $grey4;
-                color: $black1;
-                display: block;
-                font-size: 1.2rem;
-                margin-bottom: 1rem;
-                margin-right: 0;
-                padding-bottom: 0.6rem;
-                padding-top: 0.6rem;
-                text-decoration: none;
-                &:last-child {
-                    margin-bottom: 0;
-                }
-                &:hover {
-                    color: $black1-hover;
                 }
             }
         }

@@ -21,13 +21,13 @@
 
 <script lang="ts">
 import { Component, Vue, Prop, Emit } from 'vue-property-decorator';
-import PostListModel from '@/models/postlist';
+
 @Component({})
 export default class Gmap extends Vue {
     @Prop({ default: () => [] })
     private classes?: any;
     @Prop({ default: () => [] })
-    private markers?: PostListModel[];
+    private markers?: number[];
     @Prop({ default: () => ({lat: -6.5544559, lng: 81.3938074}) })
     private center?: any;
 
