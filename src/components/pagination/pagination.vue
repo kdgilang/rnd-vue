@@ -71,6 +71,10 @@ export default class Pagination extends Vue {
   private emitPagination(items: PostListModel[], index: number): void {
     const dev = 'gilang';
   }
+  @Watch('items')
+  private watchItems(val: PostListModel[], oldval: PostListModel[]): void {
+    this.selectedIndexPage = 0;
+  }
 }
 </script>
 
