@@ -4,20 +4,20 @@
     <Category />
     <FilterBlock class="visible-md"/>
     <div class="page-category__content">
-      <div class="container" v-if="dataPosts">
+      <div class="container" v-if="thePagedPosts">
         <div class="row">
-          <div v-for="(item, i) in dataPosts" :key="i" class="col-xs-12 col-md-6 col-lg-4">
+          <div v-for="(item, i) in thePagedPosts" :key="i" class="col-xs-12 col-md-6 col-lg-4">
             <Card :data="item"/>
           </div>
         </div>
-        <Pagination :items="dataPosts" :itemsPerPage="perPage" />
+        <Pagination :items="dataPosts" :itemsPerPage="perPage" @onPagination="onPagination" />
       </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue, Watch } from 'vue-property-decorator';
 import { mapGetters } from 'vuex';
 import { INIT_POSTS } from '@/store/types';
 import PostModel from '@/models/post';
@@ -42,9 +42,11 @@ import FilterBlock from '@/views/partials/filter/filter.vue';
 })
 export default class CategoryPage extends Vue {
   private posts?: PostModel;
+  private pagedPosts: PostListModel[];
 
   constructor() {
     super();
+    this.pagedPosts = Array<PostListModel>();
   }
 
   get dataPosts(): PostListModel[] {
@@ -55,9 +57,31 @@ export default class CategoryPage extends Vue {
     return (this.posts && this.posts.postPerPage) || 0;
   }
 
+  get thePagedPosts(): PostListModel[] {
+    return this.pagedPosts;
+  }
+
+  set thePagedPosts(val: PostListModel[]) {
+    this.pagedPosts = val;
+  }
+
+  private onPagination(pagedPosts: PostListModel[]): void {
+    this.thePagedPosts = pagedPosts;
+  }
+
   private mounted() {
     document.title = this.$route.meta.title;
     this.$store.dispatch(INIT_POSTS);
+  }
+
+  @Watch('dataPosts')
+  private watchPosts(val: PostListModel[], oldval: PostListModel[]) {
+    if (val) {
+      const {dataPosts, perPage} = this;
+      const cpage = 0;
+      const lpage = (cpage + 1) * perPage;
+      this.thePagedPosts = val.slice(cpage, lpage);
+    }
   }
 }
 </script>

@@ -3,13 +3,14 @@
     <div class="pagination__inner visible-lg" v-if="paging">
       <div class="pagination__label">{{label}}</div>
       <div class="pagination__content" v-if="isPaged">
-        <span class="pagination__item pagination__item_left"></span>
+        <span @click="onPagination('prev')" class="pagination__item pagination__item_left"></span>
         <span
           v-for="val in paging"
           :key="val"
           :class="`pagination__item ${selectedIndexPage === val && 'active'}`"
-        >{{val}}</span>
-        <span class="pagination__item pagination__item_right"></span>
+          @click="onPagination(val)"
+        >{{val+1}}</span>
+        <span @click="onPagination('next')" class="pagination__item pagination__item_right"></span>
       </div>
     </div>
     <button class="button pagination__single hidden-lg">Load more</button>
@@ -17,7 +18,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Prop } from 'vue-property-decorator';
+import { Component, Vue, Prop, Emit } from 'vue-property-decorator';
 import PostListModel from '@/models/postlist';
 @Component({})
 export default class Pagination extends Vue {
@@ -29,21 +30,46 @@ export default class Pagination extends Vue {
 
   constructor() {
     super();
-    this.selectedIndexPage = 1;
+    this.selectedIndexPage = 0;
   }
 
   get paging(): number[] {
-    const itemslen = this.items.length;
-    const arr = itemslen / this.itemsPerPage;
-    return Array.from({ length: arr }, (v, i) => i + 1);
+    const { items, itemsPerPage } = this;
+    const len = Math.ceil(items.length / itemsPerPage);
+    return Array.from({ length: len }, (v, i) => i);
   }
   get isPaged(): boolean {
     return this.items.length > this.itemsPerPage;
   }
   get label(): string {
-    const itemslen = this.items.length;
-    const perpage = this.isPaged ? this.itemsPerPage : itemslen;
-    return `Viewing 1-${perpage} of ${itemslen} results`;
+    const { isPaged, items, itemsPerPage, selectedIndexPage } = this;
+    const cpage = selectedIndexPage ? selectedIndexPage * itemsPerPage : 1;
+    const lpage =
+      (selectedIndexPage + 1) * itemsPerPage > items.length
+        ? items.length
+        : (selectedIndexPage + 1) * itemsPerPage;
+    return `Viewing ${cpage}-${lpage} of ${items.length} results`;
+  }
+  private onPagination(val): void {
+    const { items, itemsPerPage, paging } = this;
+    const len = paging.length - 1;
+    if (val === 'prev' && this.selectedIndexPage > 0) {
+      this.selectedIndexPage--;
+    }
+    if (val === 'next' && this.selectedIndexPage < len) {
+      this.selectedIndexPage++;
+    }
+    if (typeof val === 'number') {
+      this.selectedIndexPage = val;
+    }
+    const cpage = this.selectedIndexPage * itemsPerPage;
+    const lpage = (this.selectedIndexPage + 1) * itemsPerPage;
+    const pagedItems = items.slice(cpage, lpage);
+    this.emitPagination(pagedItems, this.selectedIndexPage);
+  }
+  @Emit('onPagination')
+  private emitPagination(items: PostListModel[], index: number): void {
+    const dev = 'gilang';
   }
 }
 </script>

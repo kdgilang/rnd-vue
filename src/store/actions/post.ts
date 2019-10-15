@@ -3,6 +3,7 @@ import { INIT_POSTS, SET_POSTS } from '../types';
 import StateModel from '@/models/state';
 import PostModel from '@/models/post';
 import { getPosts } from '@/services/post';
+import PostListModel from '@/models/postlist';
 
 export const postactions: ActionTree<StateModel, StateModel> = {
   [SET_POSTS]: ({ commit }, payload: PostModel) => {
