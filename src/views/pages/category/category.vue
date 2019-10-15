@@ -2,12 +2,12 @@
   <div class="page page-category">
     <SearchBlock />
     <Category />
-    <FilterBlock class="visible-md"/>
+    <FilterBlock class="visible-md" />
     <div class="page-category__content">
       <div class="container" v-if="thePagedPosts">
         <div class="row">
           <div v-for="(item, i) in thePagedPosts" :key="i" class="col-xs-12 col-md-6 col-lg-4">
-            <Card :data="item"/>
+            <Card :data="item" />
           </div>
         </div>
         <Pagination :items="dataPosts" :itemsPerPage="perPage" @onPagination="onPagination" />
@@ -67,6 +67,14 @@ export default class CategoryPage extends Vue {
 
   private onPagination(pagedPosts: PostListModel[]): void {
     this.thePagedPosts = pagedPosts;
+    const scrollStep = -window.scrollY / (500 / 15);
+    const scrollInterval = setInterval(() => {
+      if (window.scrollY !== 0) {
+        window.scrollBy(0, scrollStep);
+      } else {
+        clearInterval(scrollInterval);
+      }
+    }, 15);
   }
 
   private mounted() {
@@ -77,7 +85,7 @@ export default class CategoryPage extends Vue {
   @Watch('dataPosts')
   private watchPosts(val: PostListModel[], oldval: PostListModel[]) {
     if (val) {
-      const {dataPosts, perPage} = this;
+      const { dataPosts, perPage } = this;
       const cpage = 0;
       const lpage = (cpage + 1) * perPage;
       this.thePagedPosts = val.slice(cpage, lpage);
