@@ -9,3 +9,12 @@ export async function getPosts(): Promise<any> {
     return [];
   }
 }
+export async function getLocations(): Promise<any> {
+  try {
+    const req: string = './mockup/api.locations.json';
+    const res = await axios.get(req);
+    return await res.data;
+  } catch (e) {
+    return [];
+  }
+}

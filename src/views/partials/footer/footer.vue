@@ -90,7 +90,7 @@ export default class Footer extends Vue {
       this.othListData = res;
     });
     getCurrency().then((res: any[]) => {
-        this.currencyData = res;
+      this.currencyData = res;
     });
   }
 }

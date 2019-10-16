@@ -1,0 +1,65 @@
+[
+  {
+    "id": 4227258394,
+    "label": "Bali",
+    "slug": "bali",
+    "url": "/bali",
+    "published": true
+  },
+  {
+    "id": 972402803,
+    "label": "DKI Jakarta",
+    "slug": "dki-jakarta",
+    "url": "/dki-jakarta",
+    "published": true
+  },
+  {
+    "id": 2370925131,
+    "label": "Surabaya",
+    "slug": "surabaya",
+    "url": "/surabaya",
+    "published": true
+  },
+  {
+    "id": 2389285889,
+    "label": "Bandung",
+    "slug": "bandung",
+    "url": "/bandung",
+    "published": true
+  },
+  {
+    "id": 2841395163,
+    "label": "Malang",
+    "slug": "malang",
+    "url": "/malang",
+    "published": true
+  },
+  {
+    "id": 2508835935,
+    "label": "Yogyakarta",
+    "slug": "yogyakarta",
+    "url": "/yogyakarta",
+    "published": true
+  },
+  {
+    "id": 548380392,
+    "label": "Lombok",
+    "slug": "lombok",
+    "url": "/lombok",
+    "published": true
+  },
+  {
+    "id": 1379638210,
+    "label": "Papua Nugini",
+    "slug": "papua",
+    "url": "/papua",
+    "published": true
+  },
+  {
+    "id": 3725863963,
+    "label": "Aceh",
+    "slug": "aceh",
+    "url": "/aceh",
+    "published": true
+  }
+]

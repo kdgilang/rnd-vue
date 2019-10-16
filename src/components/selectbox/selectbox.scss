@@ -70,6 +70,7 @@
   &__inner {
     max-height: 300px;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
   }
   &__button {
     background-color: $white;
