@@ -1,5 +1,5 @@
 
-#[(Preview The Bali Bible on Github Page)](https://kdgilang.github.io/thebalibible/)
+# [(Preview The Bali Bible on Github Page)](https://kdgilang.github.io/thebalibible/)
 
 
 ### Compatibility with all browsers especially _I.E > 8_
